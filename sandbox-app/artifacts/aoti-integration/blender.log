@@ -1,0 +1,19 @@
+GEOMETRY_TRIANGLES 38018
+/Users/echo/Documents/AIGC/南京城市沙盘/南京奥体中心模型/build_aoti.py:222: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  scene.world=bpy.data.worlds.new('柔和日光');scene.world.use_nodes=True
+Info: Saved as "南京奥体中心体育场_分组可编辑_带材质.blend"
+INFO Draco is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_draco_bridge.dylib
+INFO MeshOptimizer is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_meshopt_bridge.dylib
+15:11:23 | INFO: Starting glTF 2.0 export
+15:11:23 | INFO: Extracting primitive: 上层连续玻璃
+15:11:23 | INFO: Primitives created: 9
+15:11:23 | INFO: Finished glTF 2.0 export in 0.04007768630981445 s
+
+Info: Saved as "南京奥体中心体育场_网页版.blend"
+MODEL_READY {'id': 'aoti', 'triangles': 38018, 'glb_bytes': 3174880, 'material_count': 9, 'embedded_images': 3, 'vertex_ao': True, 'sha256': '5b5b4794dc1616f74f96a588b24f9857d8f775ca5ae41ec63ec332da66f4c2ce', 'blender_dimensions': [41.0, 41.0, 11.1015], 'scene_scale': 0.38}
+00:18.469  render           | Saved: '/Users/echo/Documents/AIGC/南京城市沙盘/南京奥体中心模型/web/南京奥体中心体育场_实模_侧前方.png'
+00:29.032  render           | Saved: '/Users/echo/Documents/AIGC/南京城市沙盘/南京奥体中心模型/web/南京奥体中心体育场_实模_正面.png'
+00:39.971  render           | Saved: '/Users/echo/Documents/AIGC/南京城市沙盘/南京奥体中心模型/web/南京奥体中心体育场_实模_侧面.png'
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)
+
+Blender quit

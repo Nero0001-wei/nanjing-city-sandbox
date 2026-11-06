@@ -1,0 +1,15 @@
+import {readFile,writeFile} from 'node:fs/promises';
+import {execFileSync} from 'node:child_process';
+import {fileURLToPath} from 'node:url';
+const source=new URL('../../output/layout-v2/nanjing-layout-data.json',import.meta.url);
+const d=JSON.parse(await readFile(source,'utf8'));
+const result=Object.fromEntries(['landmarks','lakes','rivers','schematic_terrain','attribution'].map(k=>[k,d[k]]));
+execFileSync('python3',[fileURLToPath(new URL('./extract-roads.py',import.meta.url))],{stdio:'inherit'});
+const network=JSON.parse(await readFile(new URL('../data/road-network.json',import.meta.url),'utf8'));
+result.roads=network.roads;
+result.road_network=Object.fromEntries(Object.entries(network).filter(([k])=>k!=='roads'));
+for(const p of result.landmarks)for(const k of ['layout_px','scene_position','label_source_px'])delete p[k];
+for(const l of result.lakes)for(const r of l.rings)delete r.longitude_latitude;
+for(const t of result.schematic_terrain)for(const k of ['lon_lat','layout_px'])delete t[k];
+await writeFile(new URL('../public/data/nanjing.json',import.meta.url),JSON.stringify(result));
+console.log(`Prepared ${result.landmarks.length} anchors, ${result.roads.length} road segments; source coordinates preserved.`);

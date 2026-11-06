@@ -1,0 +1,25 @@
+{
+  "ready": "true",
+  "loadedTriangles": {
+    "yangtze-bridge": 20980,
+    "yuejiang": 1158,
+    "zifeng": 1732,
+    "jiming": 3312,
+    "nanjing-eye": 2604,
+    "museum": 39152,
+    "mingxiaoling": 38308,
+    "meiling": 37268,
+    "zhonghua": 38780,
+    "fuzimiao": 36974,
+    "baoen": 35628,
+    "presidential": 36674,
+    "zhongshan": 36774
+  },
+  "console": [],
+  "checkedViews": [
+    "夫子庙近景与旋转",
+    "总统府近景与旋转",
+    "大报恩寺近景与旋转",
+    "全景"
+  ]
+}

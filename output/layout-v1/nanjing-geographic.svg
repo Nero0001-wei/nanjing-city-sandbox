@@ -1,0 +1,166 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1760" height="1200" viewBox="0 0 1760 1200" role="img" aria-label="南京主城景点二维布局图，北向上，14个景点锚点与地形关系"><title>南京主城景点沙盘二维布局</title><defs><clipPath id="map"><rect x="48" y="170" width="1196" height="898" rx="8"/></clipPath><pattern id="grid" width="43" height="43" patternUnits="userSpaceOnUse"><path d="M43 0H0V43" fill="none" stroke="#d8dfd4" stroke-width=".6"/></pattern></defs>
+<style>text{font-family:"PingFang SC","Noto Sans CJK SC","Microsoft YaHei",sans-serif} .halo{paint-order:stroke;stroke:#f5f5ed;stroke-width:7;stroke-linejoin:round}</style><rect width="1760" height="1200" fill="#f5f5ed"/>
+<text x="56" y="52" font-size="16" fill="#74887b" font-weight="500" letter-spacing="3">NANJING  /  SCENE PLAN</text>
+<text x="56" y="112" font-size="46" fill="#233d34" font-weight="600" >南京 · 主城景点布局</text>
+<text x="58" y="147" font-size="20" fill="#6b7d70" font-weight="400" >以地理关系组织山水与地标，为等轴 2.5D 沙盘预留空间。</text>
+<text x="1698" y="57" font-size="19" fill="#425d50" font-weight="500" text-anchor="end">01  /  地理锚点底稿</text>
+<text x="1698" y="89" font-size="16" fill="#849185" font-weight="400" text-anchor="end">2026.10.29</text>
+<g clip-path="url(#map)"><rect x="48" y="170" width="1196" height="898" fill="#edf1e5"/><rect x="48" y="170" width="1196" height="898" fill="url(#grid)"/>
+<path d="M 29.6,1170.4 L 64.0,1094.7 L 125.9,1039.7 L 184.4,1010.4 L 244.6,986.4 L 279.0,955.4 L 289.3,924.4 L 277.3,878.0 L 279.0,823.0 L 292.8,774.8 L 323.7,721.5 L 346.1,664.7 L 366.7,606.2 L 385.6,547.8 L 399.4,491.0 L 413.2,442.8 L 442.4,394.7 L 482.0,344.8 L 530.1,303.5 L 555.9,272.6 L 638.5,210.6 L 729.6,147.0 L 824.2,85.1 L 924.0,24.9 L 1034.1,-35.3 L 1147.6,-93.8 L 927.4,-93.8 L 843.2,-50.8 L 765.8,-4.4 L 698.7,43.8 L 633.3,90.2 L 580.0,133.2 L 523.2,184.8 L 461.3,243.3 L 401.1,307.0 L 346.1,377.5 L 291.0,453.2 L 236.0,540.9 L 182.7,642.4 L 134.5,742.1 L 79.5,855.6 L 29.6,964.0 Z" fill="#a9d8da" stroke="#88bdc3" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round" />
+<path d="M 64.0,1070.6 L 112.2,1025.9 L 165.5,991.5 L 217.1,970.9 L 253.2,946.8 L 267.0,921.0 L 253.2,874.6 L 251.5,831.6 L 265.2,769.6 L 294.5,714.6 L 327.2,637.2 L 366.7,544.3 L 342.6,561.5 L 304.8,608.0 L 263.5,664.7 L 218.8,737.0 L 179.2,814.4 L 134.5,890.0 L 98.4,969.2 Z" fill="#d6e3bf" stroke="#b9cda7" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" />
+<path d="M 297.9,563.2 L 327.2,535.7 L 351.2,491.0 L 370.2,446.3 L 349.5,465.2 L 320.3,508.2 Z" fill="#d6e3bf" stroke="#b9cda7" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" />
+<path d="M 688.4,475.5 L 705.6,472.1 L 726.2,480.7 L 745.1,473.8 L 762.3,480.7 L 774.4,504.8 L 784.7,522.0 L 791.6,551.2 L 777.8,568.4 L 755.4,566.7 L 731.4,559.8 L 714.2,549.5 L 700.4,528.8 L 690.1,506.5 Z" fill="#a9d8da" stroke="#88bdc3" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round" />
+<path d="M 697.0,497.9 L 707.3,487.6 L 717.6,494.4 L 715.9,513.4 L 705.6,520.2 L 698.7,511.6 Z" fill="#d6e3bf" stroke="#b9cda7" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" />
+<path d="M 721.0,499.6 L 734.8,496.2 L 738.2,506.5 L 726.2,513.4 L 719.3,508.2 Z" fill="#d6e3bf" stroke="#b9cda7" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" />
+<path d="M 731.4,479.0 L 746.8,480.7 L 750.3,494.4 L 740.0,497.9 L 729.6,492.7 Z" fill="#d6e3bf" stroke="#b9cda7" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" />
+<path d="M 740.0,525.4 L 755.4,520.2 L 764.0,537.4 L 757.2,549.5 L 746.8,547.8 Z" fill="#d6e3bf" stroke="#b9cda7" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" />
+<path d="M 764.0,492.7 L 774.4,506.5 L 774.4,523.7 L 764.0,522.0 L 757.2,508.2 Z" fill="#d6e3bf" stroke="#b9cda7" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" />
+<path d="M 839.7,534.0 L 860.4,496.2 L 891.3,475.5 L 896.5,439.4 L 944.6,413.6 L 992.8,403.3 L 1049.6,394.7 L 1094.3,420.5 L 1120.1,466.9 L 1147.6,497.9 L 1170.0,546.0 L 1183.7,606.2 L 1163.1,656.1 L 1127.0,681.9 L 1075.4,688.8 L 1027.2,681.9 L 972.2,678.5 L 929.2,657.8 L 898.2,625.2 L 875.8,585.6 Z" fill="#d3dfbd" stroke="#b4c99e" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round" />
+<path d="M 874.1,531.9 L 890.6,501.7 L 915.4,485.2 L 919.5,456.3 L 958.1,435.6 L 996.6,427.4 L 1042.0,420.5 L 1077.8,441.1 L 1098.4,478.3 L 1120.4,503.0 L 1138.3,541.6 L 1149.3,589.7 L 1132.8,629.6 L 1103.9,650.3 L 1062.6,655.8 L 1024.1,650.3 L 980.1,647.5 L 945.7,631.0 L 920.9,604.9 L 903.0,573.2 Z" fill="none" stroke="#b4c59e" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" />
+<path d="M 910.2,529.8 L 922.4,507.4 L 940.7,495.3 L 943.7,474.0 L 972.1,458.7 L 1000.6,452.6 L 1034.0,447.6 L 1060.4,462.8 L 1075.7,490.2 L 1091.9,508.5 L 1105.1,536.9 L 1113.2,572.4 L 1101.0,601.8 L 1079.7,617.0 L 1049.3,621.1 L 1020.9,617.0 L 988.4,615.0 L 963.0,602.8 L 944.7,583.6 L 931.6,560.2 Z" fill="none" stroke="#b4c59e" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" />
+<path d="M 946.4,527.6 L 954.2,513.2 L 966.0,505.4 L 967.9,491.7 L 986.2,481.8 L 1004.5,477.9 L 1026.1,474.7 L 1043.1,484.5 L 1052.9,502.1 L 1063.4,513.9 L 1071.9,532.2 L 1077.1,555.1 L 1069.2,574.0 L 1055.5,583.8 L 1035.9,586.4 L 1017.6,583.8 L 996.7,582.5 L 980.3,574.7 L 968.6,562.2 L 960.1,547.2 Z" fill="none" stroke="#b4c59e" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" />
+<path d="M 497.4,718.0 L 519.8,719.8 L 528.4,742.1 L 516.4,767.9 L 499.2,766.2 L 488.8,747.3 Z" fill="#a9d8da" stroke="#88bdc3" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round" />
+<path d="M 385.6,563.2 L 401.1,611.4 L 423.5,657.8 L 437.2,716.3 L 471.6,750.7 L 525.0,792.0 L 576.6,833.3 L 635.0,864.2 L 698.7,876.3 L 736.5,886.6 L 781.2,867.7 L 810.5,819.5 L 819.1,783.4 L 793.3,754.2" fill="none" stroke="#9ecfd0" stroke-width="9" stroke-linejoin="round" stroke-linecap="round" />
+<path d="M 471.6,750.7 L 514.6,771.4 L 562.8,773.1 L 607.5,790.3 L 643.6,810.9 L 688.4,821.2 L 729.6,819.5 L 764.0,800.6 L 793.3,754.2" fill="none" stroke="#9ecfd0" stroke-width="6" stroke-linejoin="round" stroke-linecap="round" />
+<path d="M 681.5,480.7 L 681.5,518.5 L 698.7,554.6 L 729.6,575.3 L 770.9,580.4 L 798.4,573.6" fill="none" stroke="#7d9085" stroke-width="6" stroke-linejoin="round" stroke-linecap="round" />
+<path d="M 681.5,480.7 L 681.5,518.5 L 698.7,554.6 L 729.6,575.3 L 770.9,580.4 L 798.4,573.6" fill="none" stroke="#edf1e5" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="2 9"/>
+<path d="M 574.8,838.4 L 609.2,857.4 L 635.0,857.4 L 676.3,866.0 L 715.9,878.0" fill="none" stroke="#7d9085" stroke-width="6" stroke-linejoin="round" stroke-linecap="round" />
+<path d="M 574.8,838.4 L 609.2,857.4 L 635.0,857.4 L 676.3,866.0 L 715.9,878.0" fill="none" stroke="#edf1e5" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="2 9"/>
+<path d="M 655.7,575.3 L 654.0,625.2 L 657.4,671.6 L 652.2,735.2 L 650.5,800.6 L 650.5,853.9" fill="none" stroke="#ffffff" stroke-width="7" stroke-linejoin="round" stroke-linecap="round" />
+<path d="M 655.7,575.3 L 654.0,625.2 L 657.4,671.6 L 652.2,735.2 L 650.5,800.6 L 650.5,853.9" fill="none" stroke="#d9d9c7" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" />
+<path d="M 557.6,669.9 L 657.4,671.6 L 729.6,678.5 L 800.2,683.6 L 865.5,695.7 L 915.4,692.2" fill="none" stroke="#ffffff" stroke-width="7" stroke-linejoin="round" stroke-linecap="round" />
+<path d="M 557.6,669.9 L 657.4,671.6 L 729.6,678.5 L 800.2,683.6 L 865.5,695.7 L 915.4,692.2" fill="none" stroke="#d9d9c7" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" />
+<path d="M 390.8,222.7 L 552.5,315.6" fill="none" stroke="#f5f5ed" stroke-width="11" stroke-linejoin="round" stroke-linecap="round" />
+<path d="M 390.8,222.7 L 552.5,315.6" fill="none" stroke="#8c9c94" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round" />
+<path d="M 244.6,950.2 L 270.4,972.6" fill="none" stroke="#f5f5ed" stroke-width="11" stroke-linejoin="round" stroke-linecap="round" />
+<path d="M 244.6,950.2 L 270.4,972.6" fill="none" stroke="#8c9c94" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round" />
+<text x="279.0" y="327.6" font-size="27" fill="#7d9585" font-weight="500" text-anchor="middle">江 北</text>
+<text x="442.4" y="915.84" font-size="27" fill="#9ba58c" font-weight="500" text-anchor="middle">河 西</text>
+<text x="597.2" y="671.5999999999999" font-size="24" fill="#a4ad97" font-weight="500" text-anchor="middle">主 城</text>
+<text x="996.24" y="454.88" font-size="28" fill="#71855d" font-weight="500" text-anchor="middle">紫 金 山</text>
+<text x="994.52" y="487.56" font-size="16" fill="#84936e" font-weight="500" text-anchor="middle">钟山景区</text>
+<text x="205.04" y="848.76" font-size="17" fill="#758b6c" font-weight="500" text-anchor="middle">江心洲</text>
+<text x="504.32" y="704.28" font-size="16" fill="#5d9294" font-weight="500" text-anchor="middle">莫愁湖</text>
+<text x="519.8" y="805.76" font-size="17" fill="#689b9d" font-weight="500" text-anchor="middle">外秦淮河</text>
+<text x="762.3199999999999" y="850.48" font-size="16" fill="#689b9d" font-weight="500" text-anchor="middle">内秦淮河</text>
+<text x="256.64" y="583.88" font-size="32" fill="#5c969f" font-weight="500" transform="rotate(-55 256.64 583.88)" text-anchor="middle">长 江</text>
+</g>
+<path d="M462.7,263.7 L545.6,231.2" fill="none" stroke="#a36c3d" stroke-opacity=".4" stroke-width="1.3"/>
+<circle cx="462.7" cy="263.7" r="10" fill="#a36c3d" stroke="#f5f5ed" stroke-width="3"/>
+<text x="462.7339775999216" y="268.6561045979522" font-size="10" fill="#ffffff" font-weight="600" text-anchor="middle">01</text>
+<text x="551.5999999999999" y="238.16" font-size="23" fill="#2b4338" font-weight="500" class="halo" text-anchor="start">南京长江大桥</text>
+<path d="M474.5,375.5 L514.6,368.8" fill="none" stroke="#a36c3d" stroke-opacity=".4" stroke-width="1.3"/>
+<circle cx="474.5" cy="375.5" r="10" fill="#a36c3d" stroke="#f5f5ed" stroke-width="3"/>
+<text x="474.54873777486847" y="380.50303015965505" font-size="10" fill="#ffffff" font-weight="600" text-anchor="middle">02</text>
+<text x="520.64" y="375.76" font-size="23" fill="#2b4338" font-weight="500" class="halo" text-anchor="start">阅江楼</text>
+<path d="M659.4,575.5 L542.2,542.5" fill="none" stroke="#43776b" stroke-opacity=".4" stroke-width="1.3"/>
+<circle cx="659.4" cy="575.5" r="10" fill="#43776b" stroke="#f5f5ed" stroke-width="3"/>
+<text x="659.4212033420708" y="580.4622435377585" font-size="10" fill="#ffffff" font-weight="600" text-anchor="middle">03</text>
+<text x="536.16" y="549.48" font-size="23" fill="#2b4338" font-weight="500" class="halo" text-anchor="end">紫峰大厦</text>
+<path d="M719.2,572.0 L743.4,628.5" fill="none" stroke="#43776b" stroke-opacity=".4" stroke-width="1.3"/>
+<circle cx="719.2" cy="572.0" r="10" fill="#43776b" stroke="#f5f5ed" stroke-width="3"/>
+<text x="719.2389688890893" y="576.9744157619075" font-size="10" fill="#ffffff" font-weight="600" text-anchor="middle">04</text>
+<text x="749.4" y="635.48" font-size="23" fill="#2b4338" font-weight="500" class="halo" text-anchor="start">鸡鸣寺</text>
+<path d="M761.0,512.9 L812.2,473.7" fill="none" stroke="#43776b" stroke-opacity=".4" stroke-width="1.3"/>
+<circle cx="761.0" cy="512.9" r="10" fill="#43776b" stroke="#f5f5ed" stroke-width="3"/>
+<text x="760.9711286045379" y="517.8552680554101" font-size="10" fill="#ffffff" font-weight="600" text-anchor="middle">05</text>
+<text x="818.1999999999999" y="480.68" font-size="23" fill="#2b4338" font-weight="500" class="halo" text-anchor="start">玄武湖</text>
+<path d="M942.5,588.3 L877.6,539.0" fill="none" stroke="#698044" stroke-opacity=".4" stroke-width="1.3"/>
+<circle cx="942.5" cy="588.3" r="10" fill="#698044" stroke="#f5f5ed" stroke-width="3"/>
+<text x="942.5185480249021" y="593.2606052690069" font-size="10" fill="#ffffff" font-weight="600" text-anchor="middle">06</text>
+<text x="871.56" y="546.04" font-size="23" fill="#2b4338" font-weight="500" class="halo" text-anchor="end">明孝陵</text>
+<path d="M1011.3,564.6 L1073.6,535.6" fill="none" stroke="#698044" stroke-opacity=".4" stroke-width="1.3"/>
+<circle cx="1011.3" cy="564.6" r="10" fill="#698044" stroke="#f5f5ed" stroke-width="3"/>
+<text x="1011.3139882665779" y="569.643992530033" font-size="10" fill="#ffffff" font-weight="600" text-anchor="middle">07</text>
+<text x="1079.6399999999999" y="542.6" font-size="23" fill="#2b4338" font-weight="500" class="halo" text-anchor="start">中山陵</text>
+<path d="M977.0,663.0 L1035.8,669.8" fill="none" stroke="#698044" stroke-opacity=".4" stroke-width="1.3"/>
+<circle cx="977.0" cy="663.0" r="10" fill="#698044" stroke="#f5f5ed" stroke-width="3"/>
+<text x="976.9964259555423" y="668.0052640283993" font-size="10" fill="#ffffff" font-weight="600" text-anchor="middle">08</text>
+<text x="1041.8" y="676.76" font-size="23" fill="#2b4338" font-weight="500" class="halo" text-anchor="start">美龄宫</text>
+<path d="M866.5,693.5 L891.3,747.2" fill="none" stroke="#698044" stroke-opacity=".4" stroke-width="1.3"/>
+<circle cx="866.5" cy="693.5" r="10" fill="#698044" stroke="#f5f5ed" stroke-width="3"/>
+<text x="866.5289443555195" y="698.5030830499018" font-size="10" fill="#ffffff" font-weight="600" text-anchor="middle">09</text>
+<text x="897.3199999999999" y="754.16" font-size="23" fill="#2b4338" font-weight="500" class="halo" text-anchor="start">南京博物院</text>
+<path d="M730.4,677.1 L633.3,699.0" fill="none" stroke="#af6050" stroke-opacity=".4" stroke-width="1.3"/>
+<circle cx="730.4" cy="677.1" r="10" fill="#af6050" stroke="#f5f5ed" stroke-width="3"/>
+<text x="730.3608649955085" y="682.0723011491028" font-size="10" fill="#ffffff" font-weight="600" text-anchor="middle">10</text>
+<text x="627.3199999999999" y="706.0" font-size="23" fill="#2b4338" font-weight="500" class="halo" text-anchor="end">总统府</text>
+<path d="M688.1,811.2 L776.1,798.8" fill="none" stroke="#af6050" stroke-opacity=".4" stroke-width="1.3"/>
+<circle cx="688.1" cy="811.2" r="10" fill="#af6050" stroke="#f5f5ed" stroke-width="3"/>
+<text x="688.1076795166451" y="816.2286345633445" font-size="10" fill="#ffffff" font-weight="600" text-anchor="middle">11</text>
+<text x="782.08" y="805.76" font-size="23" fill="#2b4338" font-weight="500" class="halo" text-anchor="start">夫子庙</text>
+<path d="M651.5,857.9 L518.1,855.5" fill="none" stroke="#af6050" stroke-opacity=".4" stroke-width="1.3"/>
+<circle cx="651.5" cy="857.9" r="10" fill="#af6050" stroke="#f5f5ed" stroke-width="3"/>
+<text x="651.536179791647" y="862.8655974850152" font-size="10" fill="#ffffff" font-weight="600" text-anchor="middle">12</text>
+<text x="512.0799999999999" y="862.52" font-size="23" fill="#2b4338" font-weight="500" class="halo" text-anchor="end">中华门</text>
+<path d="M659.3,878.6 L721.0,941.5" fill="none" stroke="#af6050" stroke-opacity=".4" stroke-width="1.3"/>
+<circle cx="659.3" cy="878.6" r="10" fill="#af6050" stroke="#f5f5ed" stroke-width="3"/>
+<text x="659.3210060801683" y="883.6399665300455" font-size="10" fill="#ffffff" font-weight="600" text-anchor="middle">13</text>
+<text x="727.04" y="948.52" font-size="23" fill="#2b4338" font-weight="500" class="halo" text-anchor="start">大报恩寺</text>
+<path d="M257.7,961.9 L294.5,986.2" fill="none" stroke="#527891" stroke-opacity=".4" stroke-width="1.3"/>
+<circle cx="257.7" cy="961.9" r="10" fill="#527891" stroke="#f5f5ed" stroke-width="3"/>
+<text x="257.7303790932335" y="966.9397756366711" font-size="10" fill="#ffffff" font-weight="600" text-anchor="middle">14</text>
+<text x="300.48" y="993.24" font-size="23" fill="#2b4338" font-weight="500" class="halo" text-anchor="start">南京眼</text>
+<path d="M1172 214L1163 238L1172 233L1181 238Z" fill="#355b49"/>
+<text x="1172" y="204" font-size="18" fill="#355b49" font-weight="600" text-anchor="middle">N</text>
+<text x="1172" y="263" font-size="15" fill="#355b49" font-weight="400" text-anchor="middle">北</text>
+<line x1="1270" y1="170" x2="1270" y2="1068" stroke="#ccd5c8"/>
+<text x="1310" y="198" font-size="23" fill="#294537" font-weight="600" >14 个景点锚点 · 5 组场景</text>
+<rect x="1310" y="225" width="4" height="19" rx="2" fill="#a36c3d"/>
+<text x="1324" y="240" font-size="19" fill="#a36c3d" font-weight="600" >北部滨江</text>
+<text x="1310" y="266" font-size="16" fill="#a36c3d" font-weight="600" >01</text>
+<text x="1343" y="266" font-size="19" fill="#344a3c" font-weight="500" >南京长江大桥</text>
+<text x="1343" y="290" font-size="15" fill="#7e8c7b" font-weight="400" >桥头堡 + 双层桁架</text>
+<text x="1310" y="311" font-size="16" fill="#a36c3d" font-weight="600" >02</text>
+<text x="1343" y="311" font-size="19" fill="#344a3c" font-weight="500" >阅江楼</text>
+<text x="1343" y="335" font-size="15" fill="#7e8c7b" font-weight="400" >山顶楼阁</text>
+<rect x="1310" y="347" width="4" height="19" rx="2" fill="#43776b"/>
+<text x="1324" y="362" font-size="19" fill="#43776b" font-weight="600" >鼓楼 · 玄武湖</text>
+<text x="1310" y="388" font-size="16" fill="#43776b" font-weight="600" >03</text>
+<text x="1343" y="388" font-size="19" fill="#344a3c" font-weight="500" >紫峰大厦</text>
+<text x="1343" y="412" font-size="15" fill="#7e8c7b" font-weight="400" >阶梯塔身 + 尖顶</text>
+<text x="1310" y="433" font-size="16" fill="#43776b" font-weight="600" >04</text>
+<text x="1343" y="433" font-size="19" fill="#344a3c" font-weight="500" >鸡鸣寺</text>
+<text x="1343" y="457" font-size="15" fill="#7e8c7b" font-weight="400" >寺院 + 药师佛塔</text>
+<text x="1310" y="478" font-size="16" fill="#43776b" font-weight="600" >05</text>
+<text x="1343" y="478" font-size="19" fill="#344a3c" font-weight="500" >玄武湖</text>
+<text x="1343" y="502" font-size="15" fill="#7e8c7b" font-weight="400" >湖岸 + 五洲概括</text>
+<rect x="1310" y="514" width="4" height="19" rx="2" fill="#698044"/>
+<text x="1324" y="529" font-size="19" fill="#698044" font-weight="600" >钟山 · 博物院</text>
+<text x="1310" y="555" font-size="16" fill="#698044" font-weight="600" >06</text>
+<text x="1343" y="555" font-size="19" fill="#344a3c" font-weight="500" >明孝陵</text>
+<text x="1343" y="579" font-size="15" fill="#7e8c7b" font-weight="400" >明楼 + 宝城</text>
+<text x="1310" y="600" font-size="16" fill="#698044" font-weight="600" >07</text>
+<text x="1343" y="600" font-size="19" fill="#344a3c" font-weight="500" >中山陵</text>
+<text x="1343" y="624" font-size="15" fill="#7e8c7b" font-weight="400" >蓝顶祭堂 + 台阶轴线</text>
+<text x="1310" y="645" font-size="16" fill="#698044" font-weight="600" >08</text>
+<text x="1343" y="645" font-size="19" fill="#344a3c" font-weight="500" >美龄宫</text>
+<text x="1343" y="669" font-size="15" fill="#7e8c7b" font-weight="400" >绿顶主楼 + 林荫环道</text>
+<text x="1310" y="690" font-size="16" fill="#698044" font-weight="600" >09</text>
+<text x="1343" y="690" font-size="19" fill="#344a3c" font-weight="500" >南京博物院</text>
+<text x="1343" y="714" font-size="15" fill="#7e8c7b" font-weight="400" >大殿屋顶 + 门前广场</text>
+<rect x="1310" y="726" width="4" height="19" rx="2" fill="#af6050"/>
+<text x="1324" y="741" font-size="19" fill="#af6050" font-weight="600" >总统府 · 老城南</text>
+<text x="1310" y="767" font-size="16" fill="#af6050" font-weight="600" >10</text>
+<text x="1343" y="767" font-size="19" fill="#344a3c" font-weight="500" >总统府</text>
+<text x="1343" y="791" font-size="15" fill="#7e8c7b" font-weight="400" >门楼 + 简化院落</text>
+<text x="1310" y="812" font-size="16" fill="#af6050" font-weight="600" >11</text>
+<text x="1343" y="812" font-size="19" fill="#344a3c" font-weight="500" >夫子庙</text>
+<text x="1343" y="836" font-size="15" fill="#7e8c7b" font-weight="400" >大成殿 + 秦淮河岸</text>
+<text x="1310" y="857" font-size="16" fill="#af6050" font-weight="600" >12</text>
+<text x="1343" y="857" font-size="19" fill="#344a3c" font-weight="500" >中华门</text>
+<text x="1343" y="881" font-size="15" fill="#7e8c7b" font-weight="400" >瓮城 + 两段城墙</text>
+<text x="1310" y="902" font-size="16" fill="#af6050" font-weight="600" >13</text>
+<text x="1343" y="902" font-size="19" fill="#344a3c" font-weight="500" >大报恩寺</text>
+<text x="1343" y="926" font-size="15" fill="#7e8c7b" font-weight="400" >现代报恩塔的简化轮廓</text>
+<rect x="1310" y="938" width="4" height="19" rx="2" fill="#527891"/>
+<text x="1324" y="953" font-size="19" fill="#527891" font-weight="600" >河西滨江</text>
+<text x="1310" y="979" font-size="16" fill="#527891" font-weight="600" >14</text>
+<text x="1343" y="979" font-size="19" fill="#344a3c" font-weight="500" >南京眼</text>
+<text x="1343" y="1003" font-size="15" fill="#7e8c7b" font-weight="400" >倾斜双环 + 步行桥</text>
+<line x1="56" y1="1091" x2="1704" y2="1091" stroke="#ccd5c8"/>
+<text x="56" y="1124" font-size="17" fill="#526b5b" font-weight="400" >● 景点中心    ▧ 模型预留范围    ○ 原始位置（偏移时显示）</text>
+<text x="56" y="1153" font-size="16" fill="#7e8c7b" font-weight="400" >北向上 · 山水轮廓概括 · 道路仅示方向 · 模型大小不代表真实建筑占地</text>
+<text x="1704" y="1124" font-size="16" fill="#526b5b" font-weight="400" text-anchor="end">范围：南京核心主城及滨江地标，不含全市行政区</text>
+<text x="1704" y="1153" font-size="15" fill="#7e8c7b" font-weight="400" text-anchor="end">地理参考 © OpenStreetMap contributors / ODbL；景点坐标来源见数据文件</text>
+</svg>

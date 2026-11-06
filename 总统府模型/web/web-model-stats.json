@@ -1,0 +1,16 @@
+{
+  "id": "presidential",
+  "triangles": 36674,
+  "glb_bytes": 2677408,
+  "glb_mib": 2.553,
+  "material_count": 12,
+  "embedded_images": 4,
+  "vertex_ao": true,
+  "sha256": "de8de6048b826d7d293743200c9b90c589bf70e52bd5f40ae27d6396aed66d18",
+  "blender_dimensions": [
+    26.0,
+    28.0,
+    7.8964
+  ],
+  "scene_scale": 0.39
+}

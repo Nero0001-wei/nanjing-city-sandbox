@@ -1,0 +1,469 @@
+{
+  "generator": "Blender 5.2.1 LTS",
+  "coordinate_convention": "glTF Y-up, +Z front, bottom origin",
+  "models": [
+    {
+      "id": "zifeng",
+      "file": "zifeng.glb",
+      "blender_dimensions": [
+        20,
+        16,
+        82.8
+      ],
+      "origin": "ground centre",
+      "front": "glTF +Z",
+      "status": "web detailed tree-free concept with embedded textures and vertex AO",
+      "source_blend": "../../../紫峰大厦模型/web/紫峰大厦_网页版.blend",
+      "editable_source": "../../../紫峰大厦模型/紫峰大厦_分组可编辑_带材质.blend",
+      "triangles": 24484,
+      "triangle_budget": 40000,
+      "glb_bytes": 2141376,
+      "materials": 7,
+      "embedded_images": 2,
+      "vertex_ao": true,
+      "scene_scale": 0.42,
+      "version": "web-24484-59ce7d72",
+      "sha256": "59ce7d72fb807e955f37c4aed20065371e6aaebbe18bffeb788cdfcd94a18dad",
+      "scene_offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "zhongshan",
+      "file": "zhongshan.glb",
+      "blender_dimensions": [
+        22,
+        34,
+        15.2422
+      ],
+      "origin": "ground centre",
+      "front": "glTF +Z",
+      "status": "web optimized tree-free concept model with embedded textures and vertex AO",
+      "source_blend": "../../../中山陵模型/web/中山陵_网页版.blend",
+      "scene_scale": 0.6,
+      "high_detail_source": "../../../中山陵模型/中山陵_无树木_带材质.blend",
+      "triangles": 36774,
+      "triangle_budget": 40000,
+      "glb_bytes": 4261256,
+      "materials": 10,
+      "embedded_images": 2,
+      "vertex_ao": true,
+      "version": "web-36774-59573f47",
+      "sha256": "59573f4787a913bc6d1aac25680e4070f8aec4ac812230ffdf205d993e5bcb55"
+    },
+    {
+      "id": "zhonghua",
+      "file": "zhonghua.glb",
+      "blender_dimensions": [
+        29,
+        34,
+        9.145
+      ],
+      "origin": "ground centre",
+      "front": "glTF +Z",
+      "status": "web detailed tree-free concept with embedded textures and vertex AO",
+      "source_blend": "../../../中华门模型/web/中华门_网页版.blend",
+      "editable_source": "../../../中华门模型/中华门_分组可编辑_带材质.blend",
+      "triangles": 38780,
+      "triangle_budget": 40000,
+      "glb_bytes": 3469452,
+      "materials": 3,
+      "embedded_images": 2,
+      "vertex_ao": true,
+      "scene_scale": 0.38,
+      "version": "web-38780-0ea231fa",
+      "sha256": "0ea231faaa8e3fe9921436ea1d3af79ac6603a8b085f3c219ca51fa5253cefa1",
+      "scene_offset": [
+        1.8202913,
+        0,
+        -3.8261449
+      ],
+      "placement_note": "Geographic root unchanged. Southern gate terrace aligned to both mapped wall approaches; uniform scale and Baoen clearance preserved.",
+      "scene_rotation_y": -0.3437929796,
+      "wall_alignment": {
+        "attachment_source_px": [
+          [
+            353.79285994793673,
+            552.5241986840655
+          ],
+          [
+            369.436481,
+            558.124775
+          ]
+        ],
+        "local_attachment_x": 13,
+        "local_attachment_z": 14.1
+      }
+    },
+    {
+      "id": "yuejiang",
+      "file": "yuejiang.glb",
+      "blender_dimensions": [
+        24,
+        19,
+        26.77
+      ],
+      "origin": "ground centre",
+      "front": "glTF +Z",
+      "status": "web detailed tree-free concept with embedded textures and vertex AO",
+      "source_blend": "../../../阅江楼模型/web/阅江楼_网页版.blend",
+      "editable_source": "../../../阅江楼模型/阅江楼_分组可编辑_带材质.blend",
+      "triangles": 39622,
+      "triangle_budget": 40000,
+      "glb_bytes": 3372468,
+      "materials": 10,
+      "embedded_images": 4,
+      "vertex_ao": true,
+      "scene_scale": 0.28,
+      "version": "web-39622-32cf398c",
+      "sha256": "32cf398c5e8f1c57a8fd85f539387169461cbe2f55fb0c482c612a6371b275df",
+      "scene_offset": [
+        4.9,
+        0,
+        0.65
+      ]
+    },
+    {
+      "id": "jiming",
+      "file": "jiming.glb",
+      "blender_dimensions": [
+        24,
+        16,
+        25.3
+      ],
+      "origin": "ground centre",
+      "front": "glTF +Z",
+      "status": "web detailed tree-free concept with embedded textures and vertex AO",
+      "source_blend": "../../../鸡鸣寺模型/web/鸡鸣寺_网页版.blend",
+      "editable_source": "../../../鸡鸣寺模型/鸡鸣寺_分组可编辑_带材质.blend",
+      "triangles": 36744,
+      "triangle_budget": 40000,
+      "glb_bytes": 3044640,
+      "materials": 12,
+      "embedded_images": 4,
+      "vertex_ao": true,
+      "scene_scale": 0.43,
+      "version": "web-36744-586344ce",
+      "sha256": "586344ce36e71f6e5a99f08b23d91b84cde819d7d2d9522967e86ee1822ead8d",
+      "scene_offset": [
+        0,
+        0,
+        3.6
+      ]
+    },
+    {
+      "id": "mingxiaoling",
+      "file": "mingxiaoling.glb",
+      "blender_dimensions": [
+        26,
+        20,
+        15.5113
+      ],
+      "origin": "ground centre",
+      "front": "glTF +Z",
+      "status": "web detailed Fangcheng Minglou with embedded textures and vertex AO",
+      "source_blend": "../../../明孝陵模型/web/明孝陵_网页版.blend",
+      "editable_source": "../../../明孝陵模型/明孝陵_分组可编辑_带材质.blend",
+      "triangles": 38308,
+      "triangle_budget": 40000,
+      "glb_bytes": 2711656,
+      "materials": 12,
+      "embedded_images": 4,
+      "vertex_ao": true,
+      "scene_scale": 0.45,
+      "version": "web-38308-c2fd0056",
+      "sha256": "c2fd0056e73c0ce2e6fb614bb6eb54e524d6759887be599c6f43a40d6079ca72"
+    },
+    {
+      "id": "meiling",
+      "file": "meiling.glb",
+      "blender_dimensions": [
+        20,
+        17,
+        11.1149
+      ],
+      "origin": "ground centre",
+      "front": "glTF +Z",
+      "status": "web detailed tree-free concept with embedded textures and vertex AO",
+      "source_blend": "../../../美龄宫模型/web/美龄宫_网页版.blend",
+      "editable_source": "../../../美龄宫模型/美龄宫_分组可编辑_带材质.blend",
+      "triangles": 37268,
+      "triangle_budget": 40000,
+      "glb_bytes": 2603000,
+      "materials": 11,
+      "embedded_images": 3,
+      "vertex_ao": true,
+      "scene_scale": 0.47,
+      "version": "web-37268-b083c5ac",
+      "sha256": "b083c5ac4a840aebee12e5b99ef02f769ed8b94b402c60eb7b8435f101daadca"
+    },
+    {
+      "id": "museum",
+      "file": "museum.glb",
+      "blender_dimensions": [
+        34,
+        19.8,
+        10.9649
+      ],
+      "origin": "ground centre",
+      "front": "glTF +Z",
+      "status": "web detailed tree-free concept with embedded textures and vertex AO",
+      "source_blend": "../../../南京博物院模型/web/南京博物院_网页版.blend",
+      "editable_source": "../../../南京博物院模型/南京博物院_分组可编辑_带材质.blend",
+      "triangles": 39152,
+      "triangle_budget": 40000,
+      "glb_bytes": 2781628,
+      "materials": 11,
+      "embedded_images": 2,
+      "vertex_ao": true,
+      "scene_scale": 0.4,
+      "version": "web-39152-a844332d",
+      "sha256": "a844332d195416f91176a30ac01dd10b92bbc76a8fcc0f7cbde995c5702435d2",
+      "scene_offset": [
+        -3.25,
+        0,
+        0
+      ],
+      "placement_note": "Geographic root unchanged; uniform scale and local west offset keep the terrace clear of the mapped Ming city wall."
+    },
+    {
+      "id": "presidential",
+      "file": "presidential.glb",
+      "blender_dimensions": [
+        26,
+        28,
+        7.8964
+      ],
+      "origin": "ground centre",
+      "front": "glTF +Z",
+      "status": "web detailed tree-free concept with embedded textures and vertex AO",
+      "source_blend": "../../../总统府模型/web/总统府_网页版.blend",
+      "editable_source": "../../../总统府模型/总统府_分组可编辑_带材质.blend",
+      "triangles": 36674,
+      "triangle_budget": 40000,
+      "glb_bytes": 2677408,
+      "materials": 12,
+      "embedded_images": 4,
+      "vertex_ao": true,
+      "scene_scale": 0.39,
+      "version": "web-36674-de8de604",
+      "sha256": "de8de6048b826d7d293743200c9b90c589bf70e52bd5f40ae27d6396aed66d18",
+      "scene_offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "fuzimiao",
+      "file": "fuzimiao.glb",
+      "blender_dimensions": [
+        28,
+        26,
+        12.1621
+      ],
+      "origin": "ground centre",
+      "front": "glTF +Z",
+      "status": "web detailed tree-free concept with embedded textures and vertex AO",
+      "source_blend": "../../../夫子庙模型/web/夫子庙_网页版.blend",
+      "editable_source": "../../../夫子庙模型/夫子庙_分组可编辑_带材质.blend",
+      "triangles": 36974,
+      "triangle_budget": 40000,
+      "glb_bytes": 2710900,
+      "materials": 13,
+      "embedded_images": 4,
+      "vertex_ao": true,
+      "scene_scale": 0.44,
+      "version": "web-36974-61b8a713",
+      "sha256": "61b8a713c872598a9bfeadea3548299dcfc8ae88654204deafd89c005f087c78",
+      "scene_offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "baoen",
+      "file": "baoen.glb",
+      "blender_dimensions": [
+        10,
+        10,
+        34.64
+      ],
+      "origin": "ground centre",
+      "front": "glTF +Z",
+      "status": "web detailed tree-free concept with embedded textures and vertex AO",
+      "source_blend": "../../../大报恩寺模型/web/大报恩寺_网页版.blend",
+      "editable_source": "../../../大报恩寺模型/大报恩寺_分组可编辑_带材质.blend",
+      "triangles": 35628,
+      "triangle_budget": 40000,
+      "glb_bytes": 2737828,
+      "materials": 9,
+      "embedded_images": 2,
+      "vertex_ao": true,
+      "scene_scale": 0.425,
+      "version": "web-35628-4d2ddcb5",
+      "sha256": "4d2ddcb502a1075ed9ea90a7d55c85943b09359ad3db756b1b24933be0e8812b",
+      "scene_offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "yangtze-bridge",
+      "file": "yangtze-bridge.glb",
+      "blender_dimensions": [
+        60.33,
+        5.7,
+        13.22
+      ],
+      "origin": "mapped main-span midpoint; foundation datum",
+      "front": "glTF +X is the bridge longitudinal axis",
+      "status": "web detailed tree-free bridge with embedded textures and vertex AO",
+      "triangles": 37044,
+      "glb_bytes": 4398864,
+      "embedded_images": 2,
+      "vertex_ao": true,
+      "sha256": "47f3bc90de032abfebf6db67fd4dcb89ab4b62162bf00c5327cc5b7f344a23d7",
+      "scene_scale": 0.6661128596140101,
+      "scene_offset": [
+        6.761167699658131,
+        0.02,
+        8.356420234202846
+      ],
+      "scene_rotation_y": -0.7420523196136742,
+      "source_endpoints": [
+        [
+          238.54166458590976,
+          199.24266141397703
+        ],
+        [
+          287.63972107952617,
+          244.2587059534653
+        ]
+      ],
+      "native_deck_length": 60,
+      "native_deck_top": 5.168793771666714,
+      "road_lift": 3.425,
+      "deck_surface_clearance": 0.018,
+      "triangle_budget": 40000,
+      "materials": 8,
+      "version": "web-37044-47f3bc90",
+      "source_blend": "../../../南京长江大桥模型/web/南京长江大桥_网页版.blend",
+      "editable_source": "../../../南京长江大桥模型/南京长江大桥_分组可编辑_带材质.blend",
+      "placement_note": "Main span realigned to the schematic riverbanks; both bridgehead pairs stand on land. Displayed approach roads join the revised span; original OSM data and geographic landmark root stay unchanged."
+    },
+    {
+      "id": "nanjing-eye",
+      "file": "nanjing-eye.glb",
+      "blender_dimensions": [
+        56.075,
+        9.26416,
+        12.50829
+      ],
+      "origin": "mapped main-span midpoint; foundation datum",
+      "front": "glTF +X is the bridge longitudinal axis",
+      "status": "web detailed tree-free bridge with embedded textures and vertex AO",
+      "triangles": 30356,
+      "glb_bytes": 3096500,
+      "embedded_images": 2,
+      "vertex_ao": true,
+      "sha256": "18b3b1e6a158394188af82a93b642aac0ecb2f56dfd4b0368116d940a2359018",
+      "scene_scale": 0.3229860731394905,
+      "scene_offset": [
+        -2.115938899965181,
+        0.02,
+        -1.0532778825596778
+      ],
+      "scene_rotation_y": -0.7600583401300415,
+      "source_endpoints": [
+        [
+          121.304078,
+          604.629209
+        ],
+        [
+          136.910675,
+          619.464255
+        ]
+      ],
+      "native_deck_length": 40,
+      "native_deck_top": 5.133348270666601,
+      "road_lift": 1.64,
+      "deck_surface_clearance": 0.018,
+      "triangle_budget": 40000,
+      "materials": 5,
+      "version": "web-30356-18b3b1e6",
+      "source_blend": "../../../南京眼模型/web/南京眼_网页版.blend",
+      "editable_source": "../../../南京眼模型/南京眼_分组可编辑_带材质.blend",
+      "placement_note": "Mapped main-span endpoints and geographic root unchanged; uniform scale. Nanjing Eye stairs continue onto both banks."
+    },
+    {
+      "id": "aoti",
+      "file": "aoti.glb",
+      "blender_dimensions": [
+        41,
+        41,
+        11.1015
+      ],
+      "origin": "stadium centre; lower plinth embeds 0.01 scene unit into ground",
+      "front": "glTF +Z faces south; pitch long axis north-south",
+      "status": "web detailed tree-free stadium with embedded textures and vertex AO",
+      "source_blend": "../../../南京奥体中心模型/web/南京奥体中心体育场_网页版.blend",
+      "editable_source": "../../../南京奥体中心模型/南京奥体中心体育场_分组可编辑_带材质.blend",
+      "concept": "../../../南京奥体中心效果图/南京奥体中心体育场-三视图.png",
+      "triangles": 38018,
+      "triangle_budget": 40000,
+      "glb_bytes": 3174880,
+      "materials": 9,
+      "embedded_images": 3,
+      "vertex_ao": true,
+      "scene_scale": 0.38,
+      "scene_offset": [
+        0,
+        0,
+        0
+      ],
+      "scene_rotation_y": -0.008711596616221354,
+      "version": "web-38018-5b5b4794",
+      "sha256": "5b5b4794dc1616f74f96a588b24f9857d8f775ca5ae41ec63ec332da66f4c2ce",
+      "geographic_source": "https://www.openstreetmap.org/way/94496398",
+      "placement_note": "OSM stadium centre, aligned to its football pitch. The existing mapped stadium white model is excluded by the standard landmark reserve."
+    }
+  ],
+  "vegetation": {
+    "file": "trees.glb",
+    "glb_bytes": 89320,
+    "sha256": "a9558c5e7bc4b3c6d793ec83e87c45d8598fd0b7fc329ac4581b784fcafdc759",
+    "version": "miniature-trees-v2-a9558c5e",
+    "triangles": {
+      "blossom_compact": 198,
+      "blossom_full": 390,
+      "camphor_compact": 198,
+      "camphor_full": 390,
+      "cedar_compact": 198,
+      "cedar_full": 390,
+      "ginkgo_compact": 198,
+      "ginkgo_full": 390,
+      "pine_compact": 198,
+      "pine_full": 390,
+      "plane_compact": 198,
+      "plane_full": 390,
+      "willow_compact": 198,
+      "willow_full": 390
+    },
+    "total_library_triangles": 4116,
+    "materials": 1,
+    "textures": 0,
+    "coordinate_convention": "glTF Y-up, trunk foot origin; one mesh per species and detail level",
+    "source_blend": "../../../树木模型/树木_分组可编辑.blend",
+    "web_blend": "../../../树木模型/web/树木_网页版.blend",
+    "generator": "../../../树木模型/build_trees.py",
+    "max_triangles_per_tree": 400,
+    "vertex_colors": true,
+    "custom_canopy_normals": true,
+    "geometry_source": "../../../树木模型/tree_shapes.py"
+  }
+}

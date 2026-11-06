@@ -1,0 +1,146 @@
+{
+  "reviewed_at": "2026-10-29",
+  "references": {
+    "sections": "https://www.nanjing.gov.cn/xxgkn/jytabljggk/2023njytabl/shizxta/202311/t20231127_4107495.html",
+    "north_reopened": "https://www.nanjing.gov.cn/zgnjsjb/jrtt/202508/t20250826_5635731.html",
+    "gate_history": "https://wap.yzwb.net/wap/news/4870144.html",
+    "jiqing": "https://dag.nanjing.gov.cn/dawh/dags/202507/P020250701384673287176.pdf",
+    "east_survey_2026": "https://dfz.nanjing.gov.cn/gzdt/202607/t20260703_5871076.html",
+    "lost_gates": "https://www.jschy.cn/special/detail.aspx?id=16&mtt=3",
+    "qianhu": "https://wlj.nanjing.gov.cn/ztzl/mcq/gzqk/202104/t20210428_2899903.html",
+    "taiping": "https://jsnews.jschina.com.cn/sxzt/2019cmgcl/cmgs/201901/t20190107_2156508.shtml"
+  },
+  "standing_additions": [
+    {
+      "way": "1497591591",
+      "name": "东水关段",
+      "evidence": "sections"
+    },
+    {
+      "way": "1375349661",
+      "name": "武定门段",
+      "evidence": "sections"
+    },
+    {
+      "way": "1375349662",
+      "name": "武定门至雨花门段",
+      "evidence": "sections"
+    },
+    {
+      "way": "1375349663",
+      "name": "雨花门东侧段",
+      "end_node": "1769181698",
+      "evidence": "sections"
+    }
+  ],
+  "excluded_traces": [
+    {
+      "way": "437649421",
+      "reason": "水西门至汉西门旧城垣走向不能整体作为现存高墙；汉西门独立遗存另由 way/625734601 保留。",
+      "evidence": "lost_gates"
+    }
+  ],
+  "additional_gates": [
+    {
+      "node": "13719014040",
+      "name": "集庆门",
+      "arches": 4,
+      "opening_shape": "rectangular",
+      "angle": 1.7,
+      "width": 5.8,
+      "depth": 1.4,
+      "evidence": "jiqing"
+    },
+    {
+      "name": "长干门",
+      "p": [
+        349.52,
+        550.75
+      ],
+      "angle": 0.38,
+      "width": 7.2,
+      "depth": 1.4,
+      "arches": 5,
+      "location_note": "依缓存中中山南路与 relation/20427375 墙体轮廓的交点定位，非独立测绘城门轮廓。",
+      "evidence": "gate_history"
+    },
+    {
+      "name": "华严岗门",
+      "p": [
+        257.36,
+        340.75
+      ],
+      "angle": 1.42,
+      "width": 5.8,
+      "depth": 1.3,
+      "arches": 4,
+      "location_note": "由 way/134497186 与 way/1103710305 在察哈尔路处的墙端定位。",
+      "evidence": "gate_history"
+    },
+    {
+      "node": "2001574749",
+      "name": "武定门",
+      "angle": 1.92,
+      "width": 4.6,
+      "depth": 1.8,
+      "arches": 3,
+      "evidence": "sections"
+    },
+    {
+      "way": "1524823325",
+      "name": "雨花门",
+      "arches": 3,
+      "evidence": "sections"
+    },
+    {
+      "node": "1509867351",
+      "name": "标营门",
+      "angle": 1.65,
+      "width": 4.6,
+      "depth": 1.2,
+      "arches": 3,
+      "evidence": "gate_history"
+    },
+    {
+      "node": "5833639986",
+      "name": "太平门通道",
+      "angle": 0.05,
+      "width": 5.4,
+      "depth": 1.4,
+      "arches": 3,
+      "evidence": "taiping"
+    }
+  ],
+  "decisions": [
+    {
+      "place": "集庆门、长干门、华严岗门、武定门、雨花门、标营门",
+      "status": "gateway_connection",
+      "action": "补门体，墙顶接合，保留地面交通洞口。"
+    },
+    {
+      "place": "神策门—玄武门—解放门—九华山",
+      "status": "standing_continuous_section",
+      "action": "取消由相邻或下穿道路缓冲区造成的误切；门体与两侧墙身重叠接合。"
+    },
+    {
+      "place": "东水关—武定门—雨花门",
+      "status": "standing_missing_in_model",
+      "action": "按官方南线段落说明纳入原先仅有 historic 标签的地图走向，原始标签不篡改。"
+    },
+    {
+      "place": "水西门、通济门及北部钟阜路—中央门",
+      "status": "discontinuous_or_lost",
+      "action": "不连成完整历史城圈；保留独立遗存。"
+    },
+    {
+      "place": "前湖豁口",
+      "status": "steel_walkway_connection",
+      "action": "资料确认轻钢桥接通；当前缓存仍为未细分的墙线，桥体需准确定位后单独表现，不能宣称已完成实景复原。"
+    },
+    {
+      "place": "太平门通道西侧与九华山墙端之间",
+      "status": "connection_alignment_unresolved",
+      "action": "通道门体可据地图点位补回；约数百米连接线在当前缓存中缺失，暂不以直线代替真实走向。"
+    }
+  ]
+}

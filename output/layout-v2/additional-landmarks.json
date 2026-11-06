@@ -1,0 +1,22 @@
+[
+  {
+    "id": "aoti",
+    "number": 15,
+    "name": "南京奥体中心体育场",
+    "zone": "E",
+    "longitude": 118.71975424782609,
+    "latitude": 32.010600499999995,
+    "coordinate_system": "WGS84",
+    "source": "https://www.openstreetmap.org/way/94496398",
+    "source_px": [
+      196.34730602358468,
+      567.3283139723935
+    ],
+    "model": "红色双斜拱、开放式环形屋盖与体育场内场",
+    "offset_m_approx": 0,
+    "label_source_px": [
+      225,
+      585
+    ]
+  }
+]

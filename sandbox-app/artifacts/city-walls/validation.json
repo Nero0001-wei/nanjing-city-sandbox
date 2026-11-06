@@ -1,0 +1,29 @@
+{
+  "real_buildings_before": 2400,
+  "real_buildings_after": 10000,
+  "height_counts": {
+    "type_estimate": 7327,
+    "osm_height": 2055,
+    "levels_estimate": 618
+  },
+  "artistic_infill_after": 604,
+  "wall_source_features": 30,
+  "wall_display_parts": 22,
+  "gates": [
+    "玄武门",
+    "解放门",
+    "中山门",
+    "挹江门",
+    "仪凤门"
+  ],
+  "infill_overlap_with_real_buildings": 0,
+  "tests_passed": 25,
+  "production_build": "passed",
+  "source_map_and_landmark_anchors_preserved": true,
+  "external_model_updates_preserved": [
+    "zhongshan.glb"
+  ],
+  "gate_and_building_toggles": "passed",
+  "desktop_horizontal_overflow": false,
+  "browser_warnings_or_errors": []
+}

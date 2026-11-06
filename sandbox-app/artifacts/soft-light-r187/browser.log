@@ -1,0 +1,28 @@
+{
+  "rendering": {
+    "threeRevision": "187",
+    "pcfShadows": true,
+    "groundCastsShadow": false,
+    "groundReceivesShadow": true,
+    "environment": "PMREM",
+    "environmentCube": true,
+    "environmentIntensity": 0.72,
+    "treeMaterial": {
+      "type": "MeshPhysicalMaterial",
+      "diffuseRoughness": 0.65,
+      "emissive": 0
+    },
+    "groundDiffuseRoughness": 0.55,
+    "eonPrograms": 2
+  },
+  "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M5, Unspecified Version)",
+  "trees": "2059",
+  "triangles": "622530",
+  "batches": "14",
+  "clearance": {
+    "instances": 2059,
+    "finiteNormals": true,
+    "projectedFootprintOverlaps": []
+  },
+  "errors": []
+}

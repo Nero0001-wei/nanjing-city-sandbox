@@ -1,0 +1,16 @@
+{
+  "id": "meiling",
+  "triangles": 37268,
+  "glb_bytes": 2603000,
+  "glb_mib": 2.482,
+  "material_count": 11,
+  "embedded_images": 3,
+  "vertex_ao": true,
+  "sha256": "b083c5ac4a840aebee12e5b99ef02f769ed8b94b402c60eb7b8435f101daadca",
+  "blender_dimensions": [
+    20.0,
+    17.0,
+    11.1149
+  ],
+  "scene_scale": 0.47
+}

@@ -1,0 +1,19 @@
+GEOMETRY_TRIANGLES museum 39152
+/Users/echo/Documents/AIGC/南京城市沙盘/景点建模工具/build_landmark.py:292: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  world=bpy.data.worlds.new('柔和日光');scene.world=world;world.use_nodes=True;bg=world.node_tree.nodes.get('Background');bg.inputs['Color'].default_value=(.71,.79,.93,1);bg.inputs['Strength'].default_value=.45
+Info: Saved as "南京博物院_分组可编辑_带材质.blend"
+INFO Draco is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_draco_bridge.dylib
+INFO MeshOptimizer is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_meshopt_bridge.dylib
+22:14:38 | INFO: Starting glTF 2.0 export
+22:14:38 | INFO: Extracting primitive: 东西附殿_屋脊与翘角
+22:14:38 | INFO: Primitives created: 11
+22:14:38 | INFO: Finished glTF 2.0 export in 0.048567771911621094 s
+
+Info: Saved as "南京博物院_网页版.blend"
+MODEL_READY {'id': 'museum', 'triangles': 39152, 'glb_bytes': 2781628, 'glb_mib': 2.653, 'material_count': 11, 'embedded_images': 2, 'vertex_ao': True, 'sha256': 'a844332d195416f91176a30ac01dd10b92bbc76a8fcc0f7cbde995c5702435d2', 'blender_dimensions': [34.0, 19.8, 10.9649], 'scene_scale': 0.46}
+00:39.191  render           | Saved: '/Users/echo/Documents/AIGC/南京城市沙盘/南京博物院模型/web/南京博物院_实模_侧前方.png'
+00:50.686  render           | Saved: '/Users/echo/Documents/AIGC/南京城市沙盘/南京博物院模型/web/南京博物院_实模_正面.png'
+00:58.546  render           | Saved: '/Users/echo/Documents/AIGC/南京城市沙盘/南京博物院模型/web/南京博物院_实模_侧面.png'
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)
+
+Blender quit

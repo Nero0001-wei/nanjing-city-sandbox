@@ -1,0 +1,62 @@
+[
+  {
+    "file": "南京长江大桥模型/南京长江大桥_分组可编辑_带材质.blend",
+    "packed_images": 3,
+    "model_meshes": 67,
+    "collections": [
+      "01_桥墩基础",
+      "02_桥面与梁架",
+      "03_桥塔",
+      "04_索缆与连接件",
+      "05_栏杆与灯具",
+      "06_摄影棚",
+      "Collection"
+    ],
+    "vertex_ao": false
+  },
+  {
+    "file": "南京长江大桥模型/web/南京长江大桥_网页版.blend",
+    "packed_images": 3,
+    "model_meshes": 1,
+    "collections": [
+      "01_桥墩基础",
+      "02_桥面与梁架",
+      "03_桥塔",
+      "04_索缆与连接件",
+      "05_栏杆与灯具",
+      "06_摄影棚",
+      "Collection"
+    ],
+    "vertex_ao": true
+  },
+  {
+    "file": "南京眼模型/南京眼_分组可编辑_带材质.blend",
+    "packed_images": 3,
+    "model_meshes": 25,
+    "collections": [
+      "01_桥墩基础",
+      "02_桥面与梁架",
+      "03_桥塔",
+      "04_索缆与连接件",
+      "05_栏杆与灯具",
+      "06_摄影棚",
+      "Collection"
+    ],
+    "vertex_ao": false
+  },
+  {
+    "file": "南京眼模型/web/南京眼_网页版.blend",
+    "packed_images": 3,
+    "model_meshes": 1,
+    "collections": [
+      "01_桥墩基础",
+      "02_桥面与梁架",
+      "03_桥塔",
+      "04_索缆与连接件",
+      "05_栏杆与灯具",
+      "06_摄影棚",
+      "Collection"
+    ],
+    "vertex_ao": true
+  }
+]

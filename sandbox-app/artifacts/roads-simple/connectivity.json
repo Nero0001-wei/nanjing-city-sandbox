@@ -1,0 +1,21 @@
+{
+  "components": 1,
+  "interior_dead_ends": 0,
+  "boundary_exits": 6,
+  "initial_components": 50,
+  "initial_interior_dead_ends": 208,
+  "repaired_terminals": 106,
+  "trimmed_edges": 805,
+  "removed_hairpin_caps": [
+    "105242650",
+    "425461280",
+    "1103378978",
+    "89638620",
+    "162229427",
+    "432989888"
+  ],
+  "removed_return_chains": 3,
+  "source_points": 6164,
+  "display_points": 2592,
+  "ramp_segments": 99
+}

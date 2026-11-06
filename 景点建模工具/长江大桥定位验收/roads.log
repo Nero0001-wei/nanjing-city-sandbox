@@ -1,0 +1,19 @@
+✔ display diversions preserve source data, shared junctions and the connected graph (4.128ms)
+✔ short river bridges stay low while the actual south-ring viaduct remains elevated (23.112208ms)
+✔ local diversions also clear the mapped city walls and neighbouring white buildings (33.251584ms)
+✔ rendered road ribbons and junction caps clear the final landmark foundations and walls (54.40875ms)
+✔ simplified roads retain source positions and only use source road paths (7.914708ms)
+✔ the entire displayed road network is connected and has no interior dead ends (2.134333ms)
+✔ urban viaducts use one elevated level regardless of original OSM layer (0.127833ms)
+✔ shared junctions have identical deck heights and approach grades stay continuous (22.097917ms)
+✔ roads crossing in plan do not receive fictitious ramp connections (0.184084ms)
+✔ white road decks and flat tunnel guides cover bends and joins without visual gaps (4.358042ms)
+✔ an elevated approach meets the tunnel mouth without a vertical gap (0.120833ms)
+ℹ tests 11
+ℹ suites 0
+ℹ pass 11
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 195.231208

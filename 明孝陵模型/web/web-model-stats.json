@@ -1,0 +1,17 @@
+{
+  "triangles": 38308,
+  "previous_triangles": 2414,
+  "glb_bytes": 2711656,
+  "previous_glb_bytes": 122596,
+  "glb_mib": 2.586,
+  "material_count": 12,
+  "embedded_images": 4,
+  "vertex_ao": true,
+  "sha256": "c2fd0056e73c0ce2e6fb614bb6eb54e524d6759887be599c6f43a40d6079ca72",
+  "blender_dimensions": [
+    26.0,
+    20.0,
+    15.5113
+  ],
+  "scene_scale": 0.45
+}

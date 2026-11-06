@@ -1,0 +1,36 @@
+[
+  {
+    "id": "yangtze-bridge",
+    "triangles": 20980,
+    "bytes": 895336,
+    "manifest": {
+      "id": "yangtze-bridge",
+      "file": "yangtze-bridge.glb",
+      "blender_dimensions": [
+        58.069,
+        6.5,
+        9.65
+      ],
+      "origin": "ground centre",
+      "front": "glTF +Z",
+      "status": "original simplified landmark model"
+    }
+  },
+  {
+    "id": "nanjing-eye",
+    "triangles": 2604,
+    "bytes": 127692,
+    "manifest": {
+      "id": "nanjing-eye",
+      "file": "nanjing-eye.glb",
+      "blender_dimensions": [
+        13.0,
+        1.3,
+        6.235
+      ],
+      "origin": "ground centre",
+      "front": "glTF +Z",
+      "status": "original simplified landmark model"
+    }
+  }
+]

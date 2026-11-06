@@ -1,0 +1,16 @@
+{
+  "trees": 1550,
+  "variants": 21,
+  "species": {
+    "plane": 400,
+    "ginkgo": 240,
+    "pine": 177,
+    "camphor": 451,
+    "cedar": 163,
+    "willow": 53,
+    "blossom": 66
+  },
+  "minRoadMargin": 0.20253401565439533,
+  "roadComponents": 1,
+  "interiorRoadEnds": 0
+}

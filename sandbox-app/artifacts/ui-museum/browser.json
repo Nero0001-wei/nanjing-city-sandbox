@@ -1,0 +1,61 @@
+{
+  "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M5, Unspecified Version)",
+  "preservedFiles": 27,
+  "layerControls": [
+    "树木",
+    "路名",
+    "建筑白模",
+    "明城墙",
+    "简模对照"
+  ],
+  "mapInteractions": [
+    "等轴/俯视",
+    "放大/缩小",
+    "旋转",
+    "回到全景",
+    "点击地图标签"
+  ],
+  "guideNavigation": true,
+  "searchAndEmptyState": true,
+  "modalEscapeAndFocus": true,
+  "mobileDrawerFocusTrap": true,
+  "mobileCollapsibleGuide": true,
+  "reducedMotion": true,
+  "responsive": [
+    {
+      "width": 1280,
+      "height": 800
+    },
+    {
+      "width": 1024,
+      "height": 768
+    },
+    {
+      "width": 768,
+      "height": 1024
+    },
+    {
+      "width": 390,
+      "height": 844
+    },
+    {
+      "width": 375,
+      "height": 812
+    },
+    {
+      "width": 320,
+      "height": 740
+    },
+    {
+      "width": 844,
+      "height": 390
+    }
+  ],
+  "contrastOnPaper": {
+    "#244b3e": 9.03,
+    "#34483f": 9.05,
+    "#667167": 4.71
+  },
+  "consoleErrors": [],
+  "failedResponses": []
+}

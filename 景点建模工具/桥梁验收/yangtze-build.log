@@ -1,0 +1,19 @@
+EVALUATED_TRIANGLES yangtze-bridge 37044
+/Users/echo/Documents/AIGC/南京城市沙盘/景点建模工具/build_bridge.py:213: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  scene.world.use_nodes=True;bg=scene.world.node_tree.nodes.get('Background');bg.inputs['Color'].default_value=(.73,.80,.91,1);bg.inputs['Strength'].default_value=.45
+Info: Saved as "南京长江大桥_分组可编辑_带材质.blend"
+INFO Draco is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_draco_bridge.dylib
+INFO MeshOptimizer is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_meshopt_bridge.dylib
+11:28:40 | INFO: Starting glTF 2.0 export
+11:28:40 | INFO: Extracting primitive: 三面红旗雕塑
+11:28:40 | INFO: Primitives created: 8
+11:28:40 | INFO: Finished glTF 2.0 export in 0.044020891189575195 s
+
+Info: Saved as "南京长江大桥_网页版.blend"
+MODEL_READY {'id': 'yangtze-bridge', 'triangles': 37044, 'glb_bytes': 4399704, 'material_count': 8, 'embedded_images': 2, 'vertex_ao': True, 'sha256': 'e4952cd3e553670bda14145478b7dee186eccef91e2a92e0dde403f8e8e013f1', 'blender_dimensions': [60.33, 5.7, 13.22], 'scene_scale': 0.6036751307906992, 'scene_offset': [-1.1158595999726686, 0.02, -1.0336740760298426], 'scene_rotation_y': -0.5494673123927168, 'source_endpoints': [[224.221521, 190.337572], [275.703107, 221.863481]], 'native_deck_length': 60, 'native_deck_top': 5.703398772598644, 'road_lift': 3.425, 'deck_surface_clearance': 0.018}
+00:24.072  render           | Saved: '/Users/echo/Documents/AIGC/南京城市沙盘/南京长江大桥模型/web/南京长江大桥_实模_侧前方.png'
+00:43.448  render           | Saved: '/Users/echo/Documents/AIGC/南京城市沙盘/南京长江大桥模型/web/南京长江大桥_实模_侧面.png'
+01:05.382  render           | Saved: '/Users/echo/Documents/AIGC/南京城市沙盘/南京长江大桥模型/web/南京长江大桥_实模_桥端.png'
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)
+
+Blender quit

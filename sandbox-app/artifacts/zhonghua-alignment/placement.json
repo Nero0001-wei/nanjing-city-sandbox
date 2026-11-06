@@ -1,0 +1,20 @@
+{
+  "placement": {
+    "scale": 0.38,
+    "offsetX": 1.8202913,
+    "offsetZ": -3.8261449,
+    "rotationY": -0.3437929796
+  },
+  "attachment_source_px": [
+    [
+      353.79285994793673,
+      552.5241986840655
+    ],
+    [
+      369.436481,
+      558.124775
+    ]
+  ],
+  "local_attachment_x": 13,
+  "local_attachment_z": 14.1
+}

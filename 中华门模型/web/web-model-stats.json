@@ -1,0 +1,22 @@
+{
+  "id": "zhonghua",
+  "triangles": 38780,
+  "glb_bytes": 3469452,
+  "glb_mib": 3.309,
+  "material_count": 3,
+  "embedded_images": 2,
+  "vertex_ao": true,
+  "sha256": "0ea231faaa8e3fe9921436ea1d3af79ac6603a8b085f3c219ca51fa5253cefa1",
+  "blender_dimensions": [
+    29.0,
+    34.0,
+    9.145
+  ],
+  "scene_scale": 0.38,
+  "scene_offset": [
+    1.8202913,
+    0,
+    -3.8261449
+  ],
+  "scene_rotation_y": -0.3437929796
+}

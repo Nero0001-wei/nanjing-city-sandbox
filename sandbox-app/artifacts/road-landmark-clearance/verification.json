@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-30",
+  "tests": {
+    "passed": 52,
+    "failed": 0
+  },
+  "build": "passed",
+  "runtime": {
+    "adjustedRoads": "26",
+    "buildings": "10000",
+    "buildingsVisible": "true",
+    "drawCalls": "310",
+    "infillBuildings": "600",
+    "interiorRoadEnds": "0",
+    "landmarkTriangles": "{\"yangtze-bridge\":20980,\"nanjing-eye\":2604,\"jiming\":36744,\"zifeng\":24484,\"mingxiaoling\":38308,\"yuejiang\":39622,\"museum\":39152,\"presidential\":36674,\"fuzimiao\":36974,\"zhonghua\":38780,\"meiling\":37268,\"baoen\":35628,\"zhongshan\":36774}",
+    "lowRiverBridges": "27",
+    "parcels": "946",
+    "piers": "26",
+    "plantedTrees": "571",
+    "ready": "true",
+    "roadComponents": "1",
+    "roads": "935",
+    "rocks": "50",
+    "treeSpecies": "{\"plane\":554,\"camphor\":624,\"cedar\":176,\"blossom\":132,\"ginkgo\":345,\"willow\":57,\"pine\":191}",
+    "trees": "2079",
+    "triangles": "1798220",
+    "wallGates": "12",
+    "wallSegments": "27",
+    "wallsVisible": "true"
+  },
+  "console": [],
+  "assetsChanged": false
+}

@@ -1,0 +1,20 @@
+GEOMETRY_TRIANGLES 38308
+[('双层屋顶_筒瓦', 14480), ('双层屋顶_屋脊与吻兽', 7096), ('双层屋顶_连续瓦底', 3536), ('石栏_扶手与栏板', 2520), ('石栏_望柱', 2340), ('檐下_简化斗拱', 1824), ('明楼_朱红墙体', 1128), ('明楼_门扇分格', 792), ('明楼_拱形木门', 432), ('后部_登城石阶_右', 336), ('后部_登城石阶_左', 336), ('方城_通透券洞', 312)]
+/Users/echo/Documents/AIGC/南京城市沙盘/明孝陵模型/build_mingxiaoling.py:272: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  world=bpy.data.worlds.new('柔和日光环境');scene.world=world;world.use_nodes=True;bg=world.node_tree.nodes.get('Background');bg.inputs['Color'].default_value=(.71,.79,.93,1);bg.inputs['Strength'].default_value=.45
+Info: Saved as "明孝陵_分组可编辑_带材质.blend"
+INFO Draco is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_draco_bridge.dylib
+INFO MeshOptimizer is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_meshopt_bridge.dylib
+21:46:30 | INFO: Starting glTF 2.0 export
+21:46:30 | INFO: Extracting primitive: 上檐_三角山墙
+21:46:30 | INFO: Primitives created: 12
+21:46:30 | INFO: Finished glTF 2.0 export in 0.033338069915771484 s
+
+Info: Saved as "明孝陵_网页版.blend"
+MODEL_READY {'triangles': 38308, 'previous_triangles': 2414, 'glb_bytes': 2711656, 'previous_glb_bytes': 122596, 'glb_mib': 2.586, 'material_count': 12, 'embedded_images': 4, 'vertex_ao': True, 'sha256': 'c2fd0056e73c0ce2e6fb614bb6eb54e524d6759887be599c6f43a40d6079ca72', 'blender_dimensions': [26.0, 20.0, 15.5113], 'scene_scale': 0.45}
+00:21.137  render           | Saved: '/Users/echo/Documents/AIGC/南京城市沙盘/明孝陵模型/web/明孝陵_实模_侧前方.png'
+00:28.377  render           | Saved: '/Users/echo/Documents/AIGC/南京城市沙盘/明孝陵模型/web/明孝陵_实模_正面.png'
+00:34.569  render           | Saved: '/Users/echo/Documents/AIGC/南京城市沙盘/明孝陵模型/web/明孝陵_实模_侧面.png'
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)
+
+Blender quit

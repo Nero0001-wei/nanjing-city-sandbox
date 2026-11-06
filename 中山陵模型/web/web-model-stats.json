@@ -1,0 +1,16 @@
+{
+  "triangles": 36774,
+  "source_triangles": 658332,
+  "reduction_percent": 94.41,
+  "glb_bytes": 4261256,
+  "glb_mib": 4.064,
+  "material_count": 10,
+  "embedded_images": 2,
+  "vertex_ao": true,
+  "sha256": "59573f4787a913bc6d1aac25680e4070f8aec4ac812230ffdf205d993e5bcb55",
+  "blender_dimensions": [
+    22,
+    34,
+    15.2422
+  ]
+}

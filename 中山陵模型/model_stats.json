@@ -1,0 +1,12 @@
+{
+  "blender": "5.2.1 LTS",
+  "mesh_objects": 88,
+  "vertices": 267098,
+  "polygons": 246238,
+  "materials": 18,
+  "dimensions": [
+    22,
+    34,
+    15.242
+  ]
+}

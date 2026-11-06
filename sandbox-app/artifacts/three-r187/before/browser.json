@@ -1,0 +1,109 @@
+{
+  "before": false,
+  "rendering": {
+    "threeRevision": "186",
+    "pcfShadows": true,
+    "groundCastsShadow": false,
+    "groundReceivesShadow": true
+  },
+  "stats": {
+    "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M5, Unspecified Version)",
+    "baseDepth": "12.4",
+    "baseTriangles": "800",
+    "adjustedRoads": "30",
+    "lowRiverBridges": "27",
+    "wallSegments": "27",
+    "wallGates": "12",
+    "wallsVisible": "true",
+    "roads": "935",
+    "piers": "21",
+    "roadComponents": "1",
+    "interiorRoadEnds": "0",
+    "parcels": "946",
+    "infillBuildings": "613",
+    "plantedTrees": "559",
+    "treeAsset": "/models/trees.glb?v=miniature-trees-v2-a9558c5e",
+    "treeTriangles": "622530",
+    "treeBatches": "14",
+    "hills": "雨花台、菊花台、五台山、清凉山、古林公园丘陵、北极阁、九华山、富贵山、红山、幕府山南麓",
+    "treeSpecies": "{\"plane\":522,\"camphor\":639,\"cedar\":203,\"blossom\":121,\"ginkgo\":316,\"pine\":194,\"willow\":64}",
+    "trees": "2059",
+    "rocks": "50",
+    "buildings": "11500",
+    "buildingsVisible": "true",
+    "cameraMoving": "false",
+    "cameraZoom": "1.000",
+    "drawCalls": "291",
+    "triangles": "1753779",
+    "landmarkTriangles": "{\"jiming\":36744,\"yuejiang\":39622,\"zifeng\":24484,\"mingxiaoling\":38308,\"zhongshan\":36774,\"yangtze-bridge\":37044,\"museum\":39152,\"presidential\":36674,\"meiling\":37268,\"baoen\":35628,\"zhonghua\":38780,\"fuzimiao\":36974,\"nanjing-eye\":30356,\"aoti\":38018}",
+    "ready": "true"
+  },
+  "clearance": {
+    "instances": 2059,
+    "finiteNormals": true,
+    "projectedFootprintOverlaps": []
+  },
+  "assets": [
+    {
+      "url": "http://127.0.0.1:5173/models/trees.glb?v=miniature-trees-v2-a9558c5e",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:5173/models/yangtze-bridge.glb?v=web-37044-47f3bc90",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:5173/models/yuejiang.glb?v=web-39622-32cf398c",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:5173/models/jiming.glb?v=web-36744-586344ce",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:5173/models/zifeng.glb?v=web-24484-59ce7d72",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:5173/models/mingxiaoling.glb?v=web-38308-c2fd0056",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:5173/models/zhongshan.glb?v=web-36774-59573f47",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:5173/models/meiling.glb?v=web-37268-b083c5ac",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:5173/models/museum.glb?v=web-39152-a844332d",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:5173/models/presidential.glb?v=web-36674-de8de604",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:5173/models/fuzimiao.glb?v=web-36974-61b8a713",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:5173/models/zhonghua.glb?v=web-38780-0ea231fa",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:5173/models/baoen.glb?v=web-35628-4d2ddcb5",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:5173/models/nanjing-eye.glb?v=web-30356-18b3b1e6",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:5173/models/aoti.glb?v=web-38018-5b5b4794",
+      "status": 200
+    }
+  ],
+  "errors": []
+}

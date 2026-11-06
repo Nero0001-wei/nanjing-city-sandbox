@@ -1,0 +1,20 @@
+[
+  {
+    "id": "fuzimiao",
+    "triangles": 36974,
+    "bytes": 2710900,
+    "sha256": "61b8a713c872598a9bfeadea3548299dcfc8ae88654204deafd89c005f087c78"
+  },
+  {
+    "id": "presidential",
+    "triangles": 36674,
+    "bytes": 2677408,
+    "sha256": "de8de6048b826d7d293743200c9b90c589bf70e52bd5f40ae27d6396aed66d18"
+  },
+  {
+    "id": "baoen",
+    "triangles": 35628,
+    "bytes": 2737828,
+    "sha256": "4d2ddcb502a1075ed9ea90a7d55c85943b09359ad3db756b1b24933be0e8812b"
+  }
+]

@@ -1,0 +1,18 @@
+/Users/echo/Documents/AIGC/南京城市沙盘/中山陵模型/build_zhongshan_web.py:58: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m=bpy.data.materials.new(name);m.use_nodes=True;m.diffuse_color=(*colors,1);m.node_tree.nodes.clear();n=m.node_tree.nodes;l=m.node_tree.links
+WEB_PRE_JOIN_TRIANGLES 36774
+AO_RANGE 0.0 1.0
+VERTEX_COLOR_MODES ['MATERIAL', 'ACTIVE', 'NAME', 'NONE']
+INFO Draco is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_draco_bridge.dylib
+INFO MeshOptimizer is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_meshopt_bridge.dylib
+20:54:52 | INFO: Starting glTF 2.0 export
+20:54:52 | INFO: Extracting primitive: 侧墙_浅浮雕框线
+20:54:53 | INFO: Primitives created: 10
+20:54:53 | INFO: Finished glTF 2.0 export in 0.03310513496398926 s
+
+信息: 已另存为 "中山陵_网页版.blend"
+WEB_MODEL_READY {'triangles': 36774, 'source_triangles': 658332, 'reduction_percent': 94.41, 'glb_bytes': 4261256, 'glb_mib': 4.064, 'material_count': 10, 'embedded_images': 2, 'vertex_ao': True, 'sha256': '59573f4787a913bc6d1aac25680e4070f8aec4ac812230ffdf205d993e5bcb55', 'blender_dimensions': [22, 34, 15.2422]}
+00:24.421  render           | Saved: '/Users/echo/Documents/AIGC/南京城市沙盘/中山陵模型/web/中山陵_网页版_实模预览.png'
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)
+
+Blender quit

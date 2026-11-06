@@ -1,0 +1,19 @@
+GEOMETRY_TRIANGLES jiming 36744
+/Users/echo/Documents/AIGC/南京城市沙盘/景点建模工具/build_landmark.py:307: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  world=bpy.data.worlds.new('柔和日光');scene.world=world;world.use_nodes=True;bg=world.node_tree.nodes.get('Background');bg.inputs['Color'].default_value=(.71,.79,.93,1);bg.inputs['Strength'].default_value=.45
+Info: Saved as "鸡鸣寺_分组可编辑_带材质.blend"
+INFO Draco is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_draco_bridge.dylib
+INFO MeshOptimizer is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_meshopt_bridge.dylib
+10:12:08 | INFO: Starting glTF 2.0 export
+10:12:08 | INFO: Extracting primitive: 东侧庑墙
+10:12:08 | INFO: Primitives created: 12
+10:12:08 | INFO: Finished glTF 2.0 export in 0.050482988357543945 s
+
+Info: Saved as "鸡鸣寺_网页版.blend"
+MODEL_READY {'id': 'jiming', 'triangles': 36744, 'glb_bytes': 3044640, 'glb_mib': 2.904, 'material_count': 12, 'embedded_images': 4, 'vertex_ao': True, 'sha256': '586344ce36e71f6e5a99f08b23d91b84cde819d7d2d9522967e86ee1822ead8d', 'blender_dimensions': [24.0, 16.0, 25.3], 'scene_scale': 0.43, 'scene_offset': [0, 0, 3.6]}
+01:01.233  render           | Saved: '/Users/echo/Documents/AIGC/南京城市沙盘/鸡鸣寺模型/web/鸡鸣寺_实模_侧前方.png'
+01:15.094  render           | Saved: '/Users/echo/Documents/AIGC/南京城市沙盘/鸡鸣寺模型/web/鸡鸣寺_实模_正面.png'
+01:24.030  render           | Saved: '/Users/echo/Documents/AIGC/南京城市沙盘/鸡鸣寺模型/web/鸡鸣寺_实模_侧面.png'
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)
+
+Blender quit

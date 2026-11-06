@@ -1,0 +1,21 @@
+{
+  "changed": [
+    "sandbox-app/public/models/yangtze-bridge.glb"
+  ],
+  "unchanged": [
+    "sandbox-app/public/data/nanjing.json",
+    "sandbox-app/src/terrain-surface.js",
+    "sandbox-app/public/models/nanjing-eye.glb",
+    "sandbox-app/public/models/mingxiaoling.glb",
+    "sandbox-app/public/models/zhonghua.glb",
+    "sandbox-app/public/models/zifeng.glb",
+    "sandbox-app/public/models/museum.glb",
+    "sandbox-app/public/models/meiling.glb",
+    "sandbox-app/public/models/jiming.glb",
+    "sandbox-app/public/models/presidential.glb",
+    "sandbox-app/public/models/yuejiang.glb",
+    "sandbox-app/public/models/fuzimiao.glb",
+    "sandbox-app/public/models/baoen.glb",
+    "sandbox-app/public/models/zhongshan.glb"
+  ]
+}

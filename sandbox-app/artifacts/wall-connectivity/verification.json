@@ -1,0 +1,26 @@
+{
+  "checked_at": "2026-10-29T21:26:58.603128",
+  "tests": {
+    "passed": 28,
+    "failed": 0
+  },
+  "production_build": "passed",
+  "browser_console_warnings": [],
+  "browser_console_errors": [],
+  "runtime": {
+    "walls": 27,
+    "gates": 12,
+    "real_buildings": 10000,
+    "infill_buildings": 600,
+    "road_components": 1,
+    "interior_road_ends": 0
+  },
+  "screenshots": [
+    "overview.jpg",
+    "south-wall.jpg"
+  ],
+  "known_limitations": [
+    "前湖钢桥尚未从墙线中单独建模",
+    "太平门通道西侧连接线缺少准确定位"
+  ]
+}

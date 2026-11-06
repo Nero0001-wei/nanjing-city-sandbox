@@ -1,0 +1,72 @@
+[
+  {
+    "id": "nanjing-eye",
+    "triangles": 30356,
+    "bytes": 3096500
+  },
+  {
+    "id": "mingxiaoling",
+    "triangles": 38308,
+    "bytes": 2711656
+  },
+  {
+    "id": "zhonghua",
+    "triangles": 38780,
+    "bytes": 3469452
+  },
+  {
+    "id": "zifeng",
+    "triangles": 24484,
+    "bytes": 2141376
+  },
+  {
+    "id": "museum",
+    "triangles": 39152,
+    "bytes": 2781628
+  },
+  {
+    "id": "meiling",
+    "triangles": 37268,
+    "bytes": 2603000
+  },
+  {
+    "id": "jiming",
+    "triangles": 36744,
+    "bytes": 3044640
+  },
+  {
+    "id": "presidential",
+    "triangles": 36674,
+    "bytes": 2677408
+  },
+  {
+    "id": "yuejiang",
+    "triangles": 39622,
+    "bytes": 3372468
+  },
+  {
+    "id": "yangtze-bridge",
+    "triangles": 37044,
+    "bytes": 4398864
+  },
+  {
+    "id": "aoti",
+    "triangles": 38018,
+    "bytes": 3174880
+  },
+  {
+    "id": "fuzimiao",
+    "triangles": 36974,
+    "bytes": 2710900
+  },
+  {
+    "id": "baoen",
+    "triangles": 35628,
+    "bytes": 2737828
+  },
+  {
+    "id": "zhongshan",
+    "triangles": 36774,
+    "bytes": 4261256
+  }
+]

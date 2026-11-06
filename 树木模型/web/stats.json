@@ -1,0 +1,33 @@
+{
+  "file": "trees.glb",
+  "glb_bytes": 89320,
+  "sha256": "a9558c5e7bc4b3c6d793ec83e87c45d8598fd0b7fc329ac4581b784fcafdc759",
+  "version": "miniature-trees-v2-a9558c5e",
+  "triangles": {
+    "blossom_compact": 198,
+    "blossom_full": 390,
+    "camphor_compact": 198,
+    "camphor_full": 390,
+    "cedar_compact": 198,
+    "cedar_full": 390,
+    "ginkgo_compact": 198,
+    "ginkgo_full": 390,
+    "pine_compact": 198,
+    "pine_full": 390,
+    "plane_compact": 198,
+    "plane_full": 390,
+    "willow_compact": 198,
+    "willow_full": 390
+  },
+  "total_library_triangles": 4116,
+  "materials": 1,
+  "textures": 0,
+  "coordinate_convention": "glTF Y-up, trunk foot origin; one mesh per species and detail level",
+  "source_blend": "../../../树木模型/树木_分组可编辑.blend",
+  "web_blend": "../../../树木模型/web/树木_网页版.blend",
+  "generator": "../../../树木模型/build_trees.py",
+  "max_triangles_per_tree": 400,
+  "vertex_colors": true,
+  "custom_canopy_normals": true,
+  "geometry_source": "../../../树木模型/tree_shapes.py"
+}

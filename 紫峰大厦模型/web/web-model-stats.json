@@ -1,0 +1,16 @@
+{
+  "id": "zifeng",
+  "triangles": 24484,
+  "glb_bytes": 2141376,
+  "glb_mib": 2.042,
+  "material_count": 7,
+  "embedded_images": 2,
+  "vertex_ao": true,
+  "sha256": "59ce7d72fb807e955f37c4aed20065371e6aaebbe18bffeb788cdfcd94a18dad",
+  "blender_dimensions": [
+    20.0,
+    16.0,
+    82.8
+  ],
+  "scene_scale": 0.42
+}

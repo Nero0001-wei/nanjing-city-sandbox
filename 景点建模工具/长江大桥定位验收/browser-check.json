@@ -1,0 +1,27 @@
+{
+  "url": "http://127.0.0.1:5173/?landmark=yangtze-bridge",
+  "scene": {
+    "adjustedRoads": "30",
+    "buildings": "10000",
+    "buildingsVisible": "true",
+    "drawCalls": "82",
+    "infillBuildings": "600",
+    "interiorRoadEnds": "0",
+    "landmarkTriangles": "{\"jiming\":36744,\"meiling\":37268,\"yuejiang\":39622,\"mingxiaoling\":38308,\"presidential\":36674,\"fuzimiao\":36974,\"zifeng\":24484,\"museum\":39152,\"baoen\":35628,\"zhonghua\":38780,\"nanjing-eye\":30356,\"yangtze-bridge\":37044,\"zhongshan\":36774}",
+    "lowRiverBridges": "27",
+    "parcels": "946",
+    "piers": "21",
+    "plantedTrees": "571",
+    "ready": "true",
+    "roadComponents": "1",
+    "roads": "935",
+    "rocks": "50",
+    "treeSpecies": "{\"plane\":559,\"camphor\":617,\"cedar\":177,\"blossom\":134,\"ginkgo\":346,\"willow\":57,\"pine\":188}",
+    "trees": "2078",
+    "triangles": "1046605",
+    "wallGates": "12",
+    "wallSegments": "27",
+    "wallsVisible": "true"
+  },
+  "console": []
+}

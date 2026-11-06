@@ -1,0 +1,16 @@
+{
+  "public/models/nanjing-eye.glb": "2657a220c932bcc612c05b95c646238f644f1e35862904698c5e8c50c634bfeb",
+  "public/models/mingxiaoling.glb": "b51dd88938ae24080d5acc161db73bec3f809a1961e3cb40789e69d966a27419",
+  "public/models/zhonghua.glb": "7112d6bd82462fc0ad6c7a5bc280e880ffa45614532abee5af5a6e94cbda188d",
+  "public/models/zifeng.glb": "4b1ef06f7f7e698a42b22b3c1b433f670ed1ad4911f3da20e16bc2a831467bc1",
+  "public/models/museum.glb": "e95a45e37ee030f33d1a03eaf82ef69d38c56696e73318589465ee8dd1241a66",
+  "public/models/meiling.glb": "9d12146ea123d9d0f934c275d8ff068468636d747f190dcb6111c60f3633eaf5",
+  "public/models/jiming.glb": "4a565d4760b26b4685fae6fb5a7115303931fbe6c80fa4804502b23ab061686e",
+  "public/models/presidential.glb": "454cfff6796a7449bdae5a4b1288c9c7795f28c1db1d4877d1e81424a6687c4b",
+  "public/models/yuejiang.glb": "a69f45996c7b3a8eb6576b8c1098bf50d4b591fca033e3382464f5f182b1a218",
+  "public/models/yangtze-bridge.glb": "fa1de4e9467bd5aabef3eb3ca5e922b4ada37793f6a59b5da99197cd70389b5b",
+  "public/models/fuzimiao.glb": "550aba8dd3093f9e6e094ba4d27b9a89fe739d0a6d0d154692ebd9ec2442d9d4",
+  "public/models/baoen.glb": "08a96b825b314a03731caf860f536183c4392f568cde34f5ce799d722ee3440a",
+  "public/models/zhongshan.glb": "df67d0988837b01411b0711cfc2c8fd027ad46aeeeec0813a0ff086ff2a527f8",
+  "blender/nanjing-landmarks.blend": "55a95690b19af259e0bbb28357bd5eb1e14369d9bb10deffcca3603442261b3e"
+}

@@ -1,0 +1,145 @@
+
+> nanjing-city-sandbox@0.1.0 test
+> node --test tests/*.test.js
+
+✔ yangtze-bridge keeps its mapped span endpoints and delivered asset identity (53.819292ms)
+✔ yangtze-bridge exported bridge deck is continuous and has an open central passage (134.3175ms)
+✔ nanjing-eye keeps its mapped span endpoints and delivered asset identity (18.3015ms)
+✔ nanjing-eye exported bridge deck is continuous and has an open central passage (40.213083ms)
+✔ Nanjing Eye stairs reach dry ground on both banks (17.321125ms)
+✖ Yangtze bridge crosses the rendered river with both bridgehead pairs on dry banks (30.914334ms)
+✔ road network keeps approach piers without duplicating the landmark bridge supports (73.06025ms)
+✔ white models retain actual source footprints and explicit height provenance (141.122166ms)
+✖ building footprints and courtyard holes are preserved during extrusion (7.738208ms)
+✔ trees avoid white-model footprints including crown clearance (82.828875ms)
+✖ an actual building renders at its source location without horizontal enlargement (4.135125ms)
+✔ selection eases position, angle and zoom together without an initial jump or a final drift (4.249ms)
+✔ a second selection starts at the visible pose and manual input cancels the entire flight (6.033ms)
+✔ residual drag inertia cannot move the camera at the start or after a cancelled flight (1.956708ms)
+✔ rotating across the azimuth seam takes the short arc above the map (2.04375ms)
+✔ reduced motion finishes immediately, including when enabled during a flight; zoom limits remain usable (0.599ms)
+✔ motion follows elapsed time rather than refresh rate (6.049916ms)
+✔ rapid zoom clicks accumulate, while zooming during a flight keeps the visible location (0.555041ms)
+✔ standing wall display follows source fabric without connecting historical gaps (6.977625ms)
+✔ real and artistic white buildings leave mapped walls clear (60.837333ms)
+✔ standing wall tops have no unexplained road-buffer cuts (1085.061167ms)
+✔ Jiqing is a four-opening lintel gate, and reviewed southern wall sections exist (0.099084ms)
+✔ gateway arches are actual openings while their piers remain solid (91.038916ms)
+✔ all 14 geographic anchors match the approved layout without artistic shifts (1.407875ms)
+✔ required roads and tunnel semantics survive data preparation (0.191375ms)
+✔ map clipping retains crossings and rejects external geometry (0.139042ms)
+✔ all thirteen landmark assets are valid binary glTF with meshes and no external dependencies (14.211917ms)
+✔ jiming complete terrace clears mapped walls and water (167.451583ms)
+✔ zifeng complete terrace clears mapped walls and water (79.715417ms)
+✔ yuejiang complete terrace clears mapped walls and water (70.956125ms)
+✔ Zhonghua enlarged fortress clears the neighbouring Baoen foundation (3.308542ms)
+✔ Zhonghua southern terrace joins both mapped walls at their shared heading (6.331792ms)
+✔ Museum terrace leaves the mapped city walls intact and clear (7.056292ms)
+✔ shipped landmark GLBs obey the 40,000-triangle web budget after export (7.10175ms)
+✔ mingxiaoling exported building has traversable gates and solid surrounding masonry (36.276083ms)
+✔ zhonghua exported building has traversable gates and solid surrounding masonry (27.815875ms)
+✔ presidential exported building has traversable gates and solid surrounding masonry (19.895458ms)
+✔ zhongshan web GLB retains embedded maps and baked vertex shading (1.021667ms)
+✔ mingxiaoling web GLB retains embedded maps and baked vertex shading (0.509167ms)
+✔ meiling web GLB retains embedded maps and baked vertex shading (0.4215ms)
+✔ museum web GLB retains embedded maps and baked vertex shading (0.47875ms)
+✔ zhonghua web GLB retains embedded maps and baked vertex shading (0.571667ms)
+✔ fuzimiao web GLB retains embedded maps and baked vertex shading (1.963042ms)
+✔ presidential web GLB retains embedded maps and baked vertex shading (0.572292ms)
+✔ baoen web GLB retains embedded maps and baked vertex shading (0.619334ms)
+✔ jiming web GLB retains embedded maps and baked vertex shading (0.785958ms)
+✔ zifeng web GLB retains embedded maps and baked vertex shading (0.506292ms)
+✔ yuejiang web GLB retains embedded maps and baked vertex shading (0.660292ms)
+✔ yangtze-bridge web GLB retains embedded maps and baked vertex shading (0.705916ms)
+✔ nanjing-eye web GLB retains embedded maps and baked vertex shading (1.210833ms)
+✔ display diversions preserve source data, shared junctions and the connected graph (4.271042ms)
+✔ short river bridges stay low while the actual south-ring viaduct remains elevated (57.435625ms)
+✔ local diversions also clear the mapped city walls and neighbouring white buildings (59.340667ms)
+✔ rendered road ribbons and junction caps clear the final landmark foundations and walls (152.12125ms)
+✔ simplified roads retain source positions and only use source road paths (10.972917ms)
+✔ the entire displayed road network is connected and has no interior dead ends (3.469583ms)
+✔ urban viaducts use one elevated level regardless of original OSM layer (2.361458ms)
+✔ shared junctions have identical deck heights and approach grades stay continuous (69.909541ms)
+✔ roads crossing in plan do not receive fictitious ramp connections (2.254042ms)
+✔ white road decks and flat tunnel guides cover bends and joins without visual gaps (12.12675ms)
+✔ an elevated approach meets the tunnel mouth without a vertical gap (3.023542ms)
+✔ relief remains level in the city and preserves usable landmark pads (1.527625ms)
+✔ terrain has bounded, continuous slopes and no artificial vertical rim (140.118375ms)
+✔ detailed landmark foundations remain flat across their complete exported footprints (68.379791ms)
+✔ vegetation respects water, roads and future landmark footprints (81.273666ms)
+✔ added white groups preserve road, water and landmark clearances (156.868875ms)
+✔ city planting keeps crown clearance from actual and added buildings (108.621666ms)
+✔ urban meshes contain finite geometry with valid bounds (490.692833ms)
+ℹ tests 68
+ℹ suites 0
+ℹ pass 65
+ℹ fail 3
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1405.393291
+
+✖ failing tests:
+
+test at tests/bridge-placement.test.js:94:1
+✖ Yangtze bridge crosses the rendered river with both bridgehead pairs on dry banks (30.914334ms)
+  AssertionError [ERR_ASSERTION]: bridgehead footing intersects an existing building
+  
+  true !== false
+  
+      at TestContext.<anonymous> (file:///Users/echo/Documents/AIGC/%E5%8D%97%E4%BA%AC%E5%9F%8E%E5%B8%82%E6%B2%99%E7%9B%98/sandbox-app/tests/bridge-placement.test.js:106:14)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1306:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+      at Test.postRun (node:internal/test_runner/test:1447:19)
+      at Test.run (node:internal/test_runner/test:1372:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:897:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: true,
+    expected: false,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/buildings.test.js:23:1
+✖ building footprints and courtyard holes are preserved during extrusion (7.738208ms)
+  AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+  
+    assert.ok(Math.abs(g.boundingBox.max.y-g.boundingBox.min.y-.6*buildings.vertical_exaggeration)<.0001)
+  
+      at TestContext.<anonymous> (file:///Users/echo/Documents/AIGC/%E5%8D%97%E4%BA%AC%E5%9F%8E%E5%B8%82%E6%B2%99%E7%9B%98/sandbox-app/tests/buildings.test.js:26:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1306:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+      at Test.postRun (node:internal/test_runner/test:1447:19)
+      at Test.run (node:internal/test_runner/test:1372:12)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:385:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
+
+test at tests/buildings.test.js:39:1
+✖ an actual building renders at its source location without horizontal enlargement (4.135125ms)
+  AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+  
+    assert.ok(g.boundingBox.min.y>=profile.height(footprintCentre(b)))
+  
+      at TestContext.<anonymous> (file:///Users/echo/Documents/AIGC/%E5%8D%97%E4%BA%AC%E5%9F%8E%E5%B8%82%E6%B2%99%E7%9B%98/sandbox-app/tests/buildings.test.js:44:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1306:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:897:18)
+      at Test.postRun (node:internal/test_runner/test:1447:19)
+      at Test.run (node:internal/test_runner/test:1372:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:897:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }

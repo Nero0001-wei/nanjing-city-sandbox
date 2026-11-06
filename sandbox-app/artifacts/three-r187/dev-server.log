@@ -1,0 +1,94 @@
+
+> nanjing-city-sandbox@0.1.0 dev
+> vite --host 127.0.0.1 --port 5173 --strictPort --force
+
+9:23:50 AM [vite] (client) Forced re-optimization of dependencies
+
+  VITE v8.3.5  ready in 69 ms
+
+  ➜  Local:   http://127.0.0.1:5173/
+9:28:59 AM [vite] (client) page reload src/render-style.js
+9:28:59 AM [vite] (client) page reload src/scene.js
+9:28:59 AM [vite] (client) page reload src/terrain-surface.js
+9:28:59 AM [vite] (client) page reload src/vegetation.js
+9:28:59 AM [vite] (client) page reload src/tree-material.js
+9:29:15 AM [vite] (client) page reload src/sky-environment.js
+9:30:17 AM [vite] (client) page reload src/tree-material.js
+9:31:50 AM [vite] (client) page reload src/tree-material.js
+9:59:17 AM [vite] (client) [console.warn] THREE.WARNING: Multiple instances of Three.js being imported.
+9:59:17 AM [vite] (client) [console.error] Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+9:59:17 AM [vite] (client) [console.error] Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+9:59:17 AM [vite] (client) [Unhandled error] TypeError: Cannot read properties of null (reading 'useRef')
+ > exports.useRef node_modules/react/cjs/react.development.js:1306:33
+ > GuideDialog src/GuideDialog.jsx:5:15
+    3  |  
+    4  |  export function GuideDialog({open,onClose,data}){
+    5  |    const dialog=useRef(null);
+       |                 ^
+    6  |    useEffect(()=>{if(open&&!dialog.current.open)dialog.current.showModal();else if(!open&&dialog.current.open)dialog.c...
+    7  |    return <dialog ref={dialog} className="help-dialog" aria-labelledby="help-title" onClose={onClose} onClick={e=>{if(...
+ > Object.react_stack_bottom_frame ../../../../../../node_modules/.vite/deps/react-dom_client.js?v=fa0e8969:14330:12
+ > renderWithHooks ../../../../../../node_modules/.vite/deps/react-dom_client.js?v=fa0e8969:4588:19
+ > updateFunctionComponent ../../../../../../node_modules/.vite/deps/react-dom_client.js?v=fa0e8969:5963:16
+ > beginWork ../../../../../../node_modules/.vite/deps/react-dom_client.js?v=fa0e8969:6579:20
+ > runWithFiberInDEV ../../../../../../node_modules/.vite/deps/react-dom_client.js?v=fa0e8969:1132:66
+ > performUnitOfWork ../../../../../../node_modules/.vite/deps/react-dom_client.js?v=fa0e8969:9336:92
+ > workLoopSync ../../../../../../node_modules/.vite/deps/react-dom_client.js?v=fa0e8969:9232:37
+ > renderRootSync ../../../../../../node_modules/.vite/deps/react-dom_client.js?v=fa0e8969:9216:6
+
+9:59:17 AM [vite] (client) [console.warn] An error occurred in the <GuideDialog> component.
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries.
+
+9:59:19 AM [vite] (client) [console.warn] THREE.WARNING: Multiple instances of Three.js being imported.
+9:59:19 AM [vite] (client) [console.error] Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+9:59:19 AM [vite] (client) [console.error] Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+9:59:19 AM [vite] (client) [Unhandled error] TypeError: Cannot read properties of null (reading 'useRef')
+ > exports.useRef node_modules/react/cjs/react.development.js:1306:33
+ > GuideDialog src/GuideDialog.jsx:5:15
+    3  |  
+    4  |  export function GuideDialog({open,onClose,data}){
+    5  |    const dialog=useRef(null);
+       |                 ^
+    6  |    useEffect(()=>{if(open&&!dialog.current.open)dialog.current.showModal();else if(!open&&dialog.current.open)dialog.c...
+    7  |    return <dialog ref={dialog} className="help-dialog" aria-labelledby="help-title" onClose={onClose} onClick={e=>{if(...
+ > Object.react_stack_bottom_frame ../../../../../../node_modules/.vite/deps/react-dom_client.js?v=fa0e8969:14330:12
+ > renderWithHooks ../../../../../../node_modules/.vite/deps/react-dom_client.js?v=fa0e8969:4588:19
+ > updateFunctionComponent ../../../../../../node_modules/.vite/deps/react-dom_client.js?v=fa0e8969:5963:16
+ > beginWork ../../../../../../node_modules/.vite/deps/react-dom_client.js?v=fa0e8969:6579:20
+ > runWithFiberInDEV ../../../../../../node_modules/.vite/deps/react-dom_client.js?v=fa0e8969:1132:66
+ > performUnitOfWork ../../../../../../node_modules/.vite/deps/react-dom_client.js?v=fa0e8969:9336:92
+ > workLoopSync ../../../../../../node_modules/.vite/deps/react-dom_client.js?v=fa0e8969:9232:37
+ > renderRootSync ../../../../../../node_modules/.vite/deps/react-dom_client.js?v=fa0e8969:9216:6
+
+9:59:19 AM [vite] (client) [console.warn] An error occurred in the <GuideDialog> component.
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries.
+
+10:00:14 AM [vite] (client) hmr update /src/style.css
+11:04:14 AM [vite] (client) page reload src/render-style.js
+11:05:32 AM [vite] (client) page reload src/scene.js
+11:05:32 AM [vite] (client) page reload src/main.jsx
+11:05:32 AM [vite] (client) page reload src/Icon.jsx
+11:05:32 AM [vite] (client) page reload src/GuideDialog.jsx
+11:05:32 AM [vite] (client) hmr update /src/style.css
+11:05:33 AM [vite] (client) dependencies optimized: three/addons/postprocessing/EffectComposer.js, three/addons/postprocessing/OutputPass.js, three/addons/postprocessing/RenderPass.js, three/addons/postprocessing/UnrealBloomPass.js
+11:07:58 AM [vite] (client) page reload src/night-lighting.js

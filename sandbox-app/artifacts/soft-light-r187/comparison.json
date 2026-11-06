@@ -1,0 +1,52 @@
+{
+  "rendering": {
+    "threeRevision": "187",
+    "pcfShadows": true,
+    "groundCastsShadow": false,
+    "groundReceivesShadow": true,
+    "environment": "PMREM",
+    "environmentCube": true,
+    "environmentIntensity": 0.72,
+    "treeMaterial": {
+      "type": "MeshPhysicalMaterial",
+      "diffuseRoughness": 0.65,
+      "emissive": 0
+    },
+    "groundDiffuseRoughness": 0.55,
+    "eonPrograms": 2
+  },
+  "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M5, Unspecified Version)",
+  "stats": {
+    "trees": {
+      "before": "2059",
+      "after": "2059"
+    },
+    "treeTriangles": {
+      "before": "622530",
+      "after": "622530"
+    },
+    "treeBatches": {
+      "before": "14",
+      "after": "14"
+    },
+    "drawCalls": {
+      "before": "291",
+      "after": "291"
+    },
+    "triangles": {
+      "before": "1753779",
+      "after": "1753779"
+    },
+    "landmarkTriangles": {
+      "before": "{\"zifeng\":24484,\"jiming\":36744,\"yuejiang\":39622,\"yangtze-bridge\":37044,\"mingxiaoling\":38308,\"zhongshan\":36774,\"meiling\":37268,\"museum\":39152,\"presidential\":36674,\"fuzimiao\":36974,\"zhonghua\":38780,\"baoen\":35628,\"nanjing-eye\":30356,\"aoti\":38018}",
+      "after": "{\"zifeng\":24484,\"jiming\":36744,\"yuejiang\":39622,\"mingxiaoling\":38308,\"zhongshan\":36774,\"yangtze-bridge\":37044,\"museum\":39152,\"meiling\":37268,\"presidential\":36674,\"fuzimiao\":36974,\"zhonghua\":38780,\"baoen\":35628,\"nanjing-eye\":30356,\"aoti\":38018}"
+    }
+  },
+  "clearance": {
+    "instances": 2059,
+    "finiteNormals": true,
+    "projectedFootprintOverlaps": []
+  },
+  "errors": [],
+  "assetsUnchanged": true
+}

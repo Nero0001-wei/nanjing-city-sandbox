@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-02",
+  "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M5, Unspecified Version)",
+  "rendering": "hardware Metal",
+  "checks": {
+    "npmTest": "85 passed, 0 failed",
+    "npmBuild": "passed; existing large bundle warning remains",
+    "consoleErrors": [],
+    "modelsLoaded": 14,
+    "dayNightOverview": "visually inspected",
+    "nightCloseups": ["zifeng", "fuzimiao", "yangtze-bridge", "nanjing-eye", "aoti"],
+    "mobile390x844": "controls visible; document width 390; no horizontal overflow",
+    "rapidModeReversal": "returns to requested endpoint",
+    "dayRestoration": "night amount 0.000; original daylight appearance restored",
+    "selectionPreserved": "zifeng remains selected; zoom remains 7.000",
+    "layerVisibility": "building windows and landmark lighting hide with their owning model layers",
+    "reducedMotion": "instant transition checked in initial browser run and unit test"
+  },
+  "assets": {
+    "glbFilesChanged": 0,
+    "before": {"triangles": 505826, "bytes": 43181856},
+    "after": {"triangles": 505826, "bytes": 43181856},
+    "largestLandmarkTriangles": 39622,
+    "geometryAndPlacements": "unchanged",
+    "windowGeometryAdded": 0,
+    "realTimeLightsAdded": 0
+  },
+  "performanceLimit": "No device-wide FPS claim; night bloom adds GPU postprocessing work."
+}

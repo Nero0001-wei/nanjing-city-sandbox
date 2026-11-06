@@ -1,0 +1,76 @@
+/Users/echo/Documents/AIGC/南京城市沙盘/树木模型/build_trees.py:9: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  mat=bpy.data.materials.new('Foliage and bark · vertex colour');mat.use_nodes=True
+信息: 已另存为 "树木_网页版.blend"
+INFO Draco is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_draco_bridge.dylib
+INFO MeshOptimizer is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_meshopt_bridge.dylib
+19:18:00 | INFO: Starting glTF 2.0 export
+19:18:00 | INFO: Extracting primitive: blossom_compact
+19:18:00 | INFO: Primitives created: 1
+19:18:00 | INFO: Extracting primitive: blossom_full
+19:18:00 | INFO: Primitives created: 1
+19:18:00 | INFO: Extracting primitive: camphor_compact
+19:18:00 | INFO: Primitives created: 1
+19:18:00 | INFO: Extracting primitive: camphor_full
+19:18:00 | INFO: Primitives created: 1
+19:18:00 | INFO: Extracting primitive: cedar_compact
+19:18:00 | INFO: Primitives created: 1
+19:18:00 | INFO: Extracting primitive: cedar_full
+19:18:00 | INFO: Primitives created: 1
+19:18:00 | INFO: Extracting primitive: ginkgo_compact
+19:18:00 | INFO: Primitives created: 1
+19:18:00 | INFO: Extracting primitive: ginkgo_full
+19:18:00 | INFO: Primitives created: 1
+19:18:00 | INFO: Extracting primitive: pine_compact
+19:18:00 | INFO: Primitives created: 1
+19:18:00 | INFO: Extracting primitive: pine_full
+19:18:00 | INFO: Primitives created: 1
+19:18:00 | INFO: Extracting primitive: plane_compact
+19:18:00 | INFO: Primitives created: 1
+19:18:00 | INFO: Extracting primitive: plane_full
+19:18:00 | INFO: Primitives created: 1
+19:18:00 | INFO: Extracting primitive: willow_compact
+19:18:00 | INFO: Primitives created: 1
+19:18:00 | INFO: Extracting primitive: willow_full
+19:18:00 | INFO: Primitives created: 1
+19:18:00 | INFO: Finished glTF 2.0 export in 0.012589216232299805 s
+/Users/echo/Documents/AIGC/南京城市沙盘/树木模型/build_trees.py:36: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  sc=bpy.context.scene;sc.render.engine='CYCLES';sc.cycles.samples=48;sc.world.use_nodes=True;sc.world.node_tree.nodes['Background'].inputs['Color'].default_value=(.72,.78,.85,1);sc.world.node_tree.nodes['Background'].inputs['Strength'].default_value=.55;sc.view_settings.view_transform='AgX';sc.render.resolution_x=1800;sc.render.resolution_y=620;sc.render.resolution_percentage=100;sc.render.image_settings.file_format='PNG';sc.render.filepath=str(OUT/'树木实模预览.png');bpy.ops.render.render(write_still=True)
+00:12.410  render           | Saved: '/Users/echo/Documents/AIGC/南京城市沙盘/树木模型/web/树木实模预览.png'
+
+信息: 已另存为 "树木_分组可编辑.blend"
+{
+  "file": "trees.glb",
+  "glb_bytes": 89320,
+  "sha256": "a9558c5e7bc4b3c6d793ec83e87c45d8598fd0b7fc329ac4581b784fcafdc759",
+  "version": "miniature-trees-v2-a9558c5e",
+  "triangles": {
+    "blossom_compact": 198,
+    "blossom_full": 390,
+    "camphor_compact": 198,
+    "camphor_full": 390,
+    "cedar_compact": 198,
+    "cedar_full": 390,
+    "ginkgo_compact": 198,
+    "ginkgo_full": 390,
+    "pine_compact": 198,
+    "pine_full": 390,
+    "plane_compact": 198,
+    "plane_full": 390,
+    "willow_compact": 198,
+    "willow_full": 390
+  },
+  "total_library_triangles": 4116,
+  "materials": 1,
+  "textures": 0,
+  "coordinate_convention": "glTF Y-up, trunk foot origin; one mesh per species and detail level",
+  "source_blend": "../../../树木模型/树木_分组可编辑.blend",
+  "web_blend": "../../../树木模型/web/树木_网页版.blend",
+  "generator": "../../../树木模型/build_trees.py",
+  "max_triangles_per_tree": 400,
+  "vertex_colors": true,
+  "custom_canopy_normals": true,
+  "geometry_source": "../../../树木模型/tree_shapes.py"
+}
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)
+
+Blender quit

@@ -1,0 +1,30 @@
+{
+  "reports": [
+    {
+      "name": "desktop",
+      "height": 41,
+      "overflow": [],
+      "horizontalOverflow": false,
+      "mapTop": 41,
+      "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M5, Unspecified Version)"
+    },
+    {
+      "name": "mobile",
+      "height": 36,
+      "overflow": [],
+      "horizontalOverflow": false,
+      "mapTop": 36,
+      "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M5, Unspecified Version)"
+    },
+    {
+      "name": "short",
+      "height": 32,
+      "overflow": [],
+      "horizontalOverflow": false,
+      "mapTop": 32,
+      "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M5, Unspecified Version)"
+    }
+  ],
+  "helpDialog": true,
+  "errors": []
+}

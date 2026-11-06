@@ -1,0 +1,49 @@
+
+> nanjing-city-sandbox@0.1.0 test
+> node --test tests/*.test.js
+
+✔ white models retain actual source footprints and explicit height provenance (114.037ms)
+✔ building footprints and courtyard holes are preserved during extrusion (5.772417ms)
+✔ trees avoid white-model footprints including crown clearance (71.352958ms)
+✔ an actual building renders at its source location without horizontal enlargement (2.681708ms)
+✔ standing wall display follows source fabric without connecting historical gaps (14.592583ms)
+✔ real and artistic white buildings leave mapped walls clear (61.571042ms)
+✔ standing wall tops have no unexplained road-buffer cuts (1071.789083ms)
+✔ Jiqing is a four-opening lintel gate, and reviewed southern wall sections exist (0.125625ms)
+✔ gateway arches are actual openings while their piers remain solid (64.564083ms)
+✔ all 14 geographic anchors match the approved layout without artistic shifts (1.506917ms)
+✔ required roads and tunnel semantics survive data preparation (0.172667ms)
+✔ map clipping retains crossings and rejects external geometry (0.150958ms)
+✔ all thirteen landmark assets are valid binary glTF with meshes and no external dependencies (10.324ms)
+✔ Zhonghua enlarged fortress clears the neighbouring Baoen foundation (5.622417ms)
+✔ Museum terrace leaves the mapped city walls intact and clear (11.568166ms)
+✔ shipped landmark GLBs obey the 40,000-triangle web budget after export (4.230083ms)
+✔ mingxiaoling exported fortress has traversable gates and solid surrounding masonry (62.855ms)
+✔ zhonghua exported fortress has traversable gates and solid surrounding masonry (41.732208ms)
+✔ zhongshan web GLB retains embedded maps and baked vertex shading (0.889542ms)
+✔ mingxiaoling web GLB retains embedded maps and baked vertex shading (0.476ms)
+✔ meiling web GLB retains embedded maps and baked vertex shading (0.436458ms)
+✔ museum web GLB retains embedded maps and baked vertex shading (0.463625ms)
+✔ zhonghua web GLB retains embedded maps and baked vertex shading (0.584792ms)
+✔ simplified roads retain source positions and only use source road paths (9.668333ms)
+✔ the entire displayed road network is connected and has no interior dead ends (4.83525ms)
+✔ urban viaducts use one elevated level regardless of original OSM layer (0.229542ms)
+✔ shared junctions have identical deck heights and approach grades stay continuous (42.109ms)
+✔ roads crossing in plan do not receive fictitious ramp connections (0.186375ms)
+✔ white road decks and flat tunnel guides cover bends and joins without visual gaps (4.925708ms)
+✔ an elevated approach meets the tunnel mouth without a vertical gap (0.107458ms)
+✔ relief remains level in the city and preserves usable landmark pads (1.224958ms)
+✔ terrain has bounded, continuous slopes and no artificial vertical rim (46.515ms)
+✔ detailed landmark foundations remain flat across their complete exported footprints (21.515209ms)
+✔ vegetation respects water, roads and future landmark footprints (86.175416ms)
+✔ added white groups preserve road, water and landmark clearances (172.800167ms)
+✔ city planting keeps crown clearance from actual and added buildings (125.127042ms)
+✔ urban meshes contain finite geometry with valid bounds (58.534334ms)
+ℹ tests 37
+ℹ suites 0
+ℹ pass 37
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1358.777

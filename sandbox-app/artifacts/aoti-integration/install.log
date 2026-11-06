@@ -1,0 +1,80 @@
+{
+  "source": "OpenStreetMap API snapshot 2026-10-29",
+  "attribution": "© OpenStreetMap contributors, ODbL 1.0",
+  "source_count": 22083,
+  "candidate_count": 17453,
+  "count": 11500,
+  "height_counts": {
+    "type_estimate": 8550,
+    "osm_height": 2273,
+    "levels_estimate": 677
+  },
+  "excluded": {
+    "landmark_reserve": 1066,
+    "displayed_road_clearance": 874,
+    "small_footprint": 1377,
+    "city_wall_fabric": 10,
+    "scenic_terrain": 523,
+    "schematic_water_mask": 639,
+    "city_wall_clearance": 119,
+    "road_edge_clearance": 1,
+    "complete_bridge_reserve": 21
+  },
+  "selection": "Selected complete OSM footprints >=120 m² across the full urban area, including block interiors, with clearance around landmarks, city walls, stylized water and roads. Max 11500, balanced across spatial cells.",
+  "height_note": "osm_height is an OSM height tag, not independent measurement. levels_estimate and type_estimate are estimates, not surveyed heights.",
+  "vertical_exaggeration": 1.6,
+  "metres_per_source_pixel": 32.4
+}
+{
+  "version": "web-38018-5b5b4794",
+  "id": "aoti",
+  "triangles": 38018,
+  "glb_bytes": 3174880,
+  "material_count": 9,
+  "embedded_images": 3,
+  "vertex_ao": true,
+  "sha256": "5b5b4794dc1616f74f96a588b24f9857d8f775ca5ae41ec63ec332da66f4c2ce",
+  "blender_dimensions": [
+    41,
+    41,
+    11.1015
+  ],
+  "scene_scale": 0.38,
+  "placement": {
+    "removed_white": [
+      "relation/9232089",
+      "relation/21641063",
+      "way/782635344",
+      "way/94496473",
+      "way/94496401",
+      "way/94496403",
+      "way/782020794",
+      "way/630921815",
+      "way/273529298",
+      "way/782020793",
+      "way/664470336",
+      "way/664470330",
+      "way/664470334",
+      "way/664470332"
+    ],
+    "added_white": [
+      "way/782020737",
+      "way/782020799",
+      "way/782020709",
+      "way/777215818",
+      "way/625884714",
+      "way/384126639",
+      "way/625909325",
+      "way/916831946",
+      "way/778868490",
+      "way/778868650",
+      "way/1525074745",
+      "way/779077934",
+      "way/778868419",
+      "way/1333698310"
+    ],
+    "removed_infill": [],
+    "white_count": 11500,
+    "infill_count": 613
+  }
+}

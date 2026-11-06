@@ -1,0 +1,16 @@
+{
+  "id": "baoen",
+  "triangles": 35628,
+  "glb_bytes": 2737828,
+  "glb_mib": 2.611,
+  "material_count": 9,
+  "embedded_images": 2,
+  "vertex_ao": true,
+  "sha256": "4d2ddcb502a1075ed9ea90a7d55c85943b09359ad3db756b1b24933be0e8812b",
+  "blender_dimensions": [
+    10.0,
+    10.0,
+    34.64
+  ],
+  "scene_scale": 0.425
+}

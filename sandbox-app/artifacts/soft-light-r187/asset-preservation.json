@@ -1,0 +1,107 @@
+{
+  "public/models/nanjing-eye.glb": {
+    "bytes": 3096500,
+    "sha256": "18b3b1e6a158394188af82a93b642aac0ecb2f56dfd4b0368116d940a2359018",
+    "unchanged": true
+  },
+  "public/models/mingxiaoling.glb": {
+    "bytes": 2711656,
+    "sha256": "c2fd0056e73c0ce2e6fb614bb6eb54e524d6759887be599c6f43a40d6079ca72",
+    "unchanged": true
+  },
+  "public/models/zhonghua.glb": {
+    "bytes": 3469452,
+    "sha256": "0ea231faaa8e3fe9921436ea1d3af79ac6603a8b085f3c219ca51fa5253cefa1",
+    "unchanged": true
+  },
+  "public/models/zifeng.glb": {
+    "bytes": 2141376,
+    "sha256": "59ce7d72fb807e955f37c4aed20065371e6aaebbe18bffeb788cdfcd94a18dad",
+    "unchanged": true
+  },
+  "public/models/museum.glb": {
+    "bytes": 2781628,
+    "sha256": "a844332d195416f91176a30ac01dd10b92bbc76a8fcc0f7cbde995c5702435d2",
+    "unchanged": true
+  },
+  "public/models/trees.glb": {
+    "bytes": 89320,
+    "sha256": "a9558c5e7bc4b3c6d793ec83e87c45d8598fd0b7fc329ac4581b784fcafdc759",
+    "unchanged": true
+  },
+  "public/models/meiling.glb": {
+    "bytes": 2603000,
+    "sha256": "b083c5ac4a840aebee12e5b99ef02f769ed8b94b402c60eb7b8435f101daadca",
+    "unchanged": true
+  },
+  "public/models/jiming.glb": {
+    "bytes": 3044640,
+    "sha256": "586344ce36e71f6e5a99f08b23d91b84cde819d7d2d9522967e86ee1822ead8d",
+    "unchanged": true
+  },
+  "public/models/presidential.glb": {
+    "bytes": 2677408,
+    "sha256": "de8de6048b826d7d293743200c9b90c589bf70e52bd5f40ae27d6396aed66d18",
+    "unchanged": true
+  },
+  "public/models/manifest.json": {
+    "bytes": 15496,
+    "sha256": "7f865ac561ad0b14647244863c464090f3558cedc4dde96f5abee44b1ecec890",
+    "unchanged": true
+  },
+  "public/models/yuejiang.glb": {
+    "bytes": 3372468,
+    "sha256": "32cf398c5e8f1c57a8fd85f539387169461cbe2f55fb0c482c612a6371b275df",
+    "unchanged": true
+  },
+  "public/models/yangtze-bridge.glb": {
+    "bytes": 4398864,
+    "sha256": "47f3bc90de032abfebf6db67fd4dcb89ab4b62162bf00c5327cc5b7f344a23d7",
+    "unchanged": true
+  },
+  "public/models/aoti.glb": {
+    "bytes": 3174880,
+    "sha256": "5b5b4794dc1616f74f96a588b24f9857d8f775ca5ae41ec63ec332da66f4c2ce",
+    "unchanged": true
+  },
+  "public/models/fuzimiao.glb": {
+    "bytes": 2710900,
+    "sha256": "61b8a713c872598a9bfeadea3548299dcfc8ae88654204deafd89c005f087c78",
+    "unchanged": true
+  },
+  "public/models/baoen.glb": {
+    "bytes": 2737828,
+    "sha256": "4d2ddcb502a1075ed9ea90a7d55c85943b09359ad3db756b1b24933be0e8812b",
+    "unchanged": true
+  },
+  "public/models/zhongshan.glb": {
+    "bytes": 4261256,
+    "sha256": "59573f4787a913bc6d1aac25680e4070f8aec4ac812230ffdf205d993e5bcb55",
+    "unchanged": true
+  },
+  "public/data/buildings.json": {
+    "bytes": 5546154,
+    "sha256": "0b157c65f62ccd8ebc593e0ba26472672aef8519eee38d3341c4999f2e0bda52",
+    "unchanged": true
+  },
+  "public/data/city-walls.json": {
+    "bytes": 129045,
+    "sha256": "8faa926cff293e82003caf05ad13f542fd33b52482fe03e7110dc0d5f368b4cc",
+    "unchanged": true
+  },
+  "public/data/urban.json": {
+    "bytes": 817518,
+    "sha256": "8da440ab0bd24f0731c3debd79df373b1f71e1bd2c2aede0d489e4aa24db3724",
+    "unchanged": true
+  },
+  "public/data/nanjing.json": {
+    "bytes": 475369,
+    "sha256": "2b96c5ec362dae7d7fecc4386164010a700dea476012f453a015079722abdf19",
+    "unchanged": true
+  },
+  "src/landmark-placement.js": {
+    "bytes": 4059,
+    "sha256": "fa1859ff52155dc224c0b1153c1d2cc5aaa7188dc3b1a3d5bdd1c1cc4accb54f",
+    "unchanged": true
+  }
+}

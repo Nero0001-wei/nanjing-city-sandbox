@@ -1,0 +1,18 @@
+{
+  "sandbox-app/public/data/nanjing.json": "520adaf91f36a94e2329011f29b735fd788e11d0282f60c30fc48773f6b483a9",
+  "output/layout-v2/nanjing-layout-data.json": "38a5c656f96980983f96051da73daa95a776597942573d6a746922b9b62fbebf",
+  "sandbox-app/public/models/nanjing-eye.glb": "18b3b1e6a158394188af82a93b642aac0ecb2f56dfd4b0368116d940a2359018",
+  "sandbox-app/public/models/mingxiaoling.glb": "c2fd0056e73c0ce2e6fb614bb6eb54e524d6759887be599c6f43a40d6079ca72",
+  "sandbox-app/public/models/zhonghua.glb": "0ea231faaa8e3fe9921436ea1d3af79ac6603a8b085f3c219ca51fa5253cefa1",
+  "sandbox-app/public/models/zifeng.glb": "59ce7d72fb807e955f37c4aed20065371e6aaebbe18bffeb788cdfcd94a18dad",
+  "sandbox-app/public/models/museum.glb": "a844332d195416f91176a30ac01dd10b92bbc76a8fcc0f7cbde995c5702435d2",
+  "sandbox-app/public/models/trees.glb": "7c351dc9ecbc67d064befb80c3b28719e30b55c6f14e0426d28767dadf498e7b",
+  "sandbox-app/public/models/meiling.glb": "b083c5ac4a840aebee12e5b99ef02f769ed8b94b402c60eb7b8435f101daadca",
+  "sandbox-app/public/models/jiming.glb": "586344ce36e71f6e5a99f08b23d91b84cde819d7d2d9522967e86ee1822ead8d",
+  "sandbox-app/public/models/presidential.glb": "de8de6048b826d7d293743200c9b90c589bf70e52bd5f40ae27d6396aed66d18",
+  "sandbox-app/public/models/yuejiang.glb": "32cf398c5e8f1c57a8fd85f539387169461cbe2f55fb0c482c612a6371b275df",
+  "sandbox-app/public/models/yangtze-bridge.glb": "47f3bc90de032abfebf6db67fd4dcb89ab4b62162bf00c5327cc5b7f344a23d7",
+  "sandbox-app/public/models/fuzimiao.glb": "61b8a713c872598a9bfeadea3548299dcfc8ae88654204deafd89c005f087c78",
+  "sandbox-app/public/models/baoen.glb": "4d2ddcb502a1075ed9ea90a7d55c85943b09359ad3db756b1b24933be0e8812b",
+  "sandbox-app/public/models/zhongshan.glb": "59573f4787a913bc6d1aac25680e4070f8aec4ac812230ffdf205d993e5bcb55"
+}

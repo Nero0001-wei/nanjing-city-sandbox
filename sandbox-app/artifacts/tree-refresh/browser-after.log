@@ -1,0 +1,12 @@
+{
+  "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M5, Unspecified Version)",
+  "trees": "2059",
+  "triangles": "622530",
+  "batches": "14",
+  "clearance": {
+    "instances": 2059,
+    "finiteNormals": true,
+    "projectedFootprintOverlaps": []
+  },
+  "errors": []
+}

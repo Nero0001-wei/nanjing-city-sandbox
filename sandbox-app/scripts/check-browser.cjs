@@ -1,0 +1,27 @@
+const {chromium}=require('/Users/echo/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
+(async()=>{
+ const browser=await chromium.launch({executablePath:'/Applications/Google Chrome.app/Contents/MacOS/Google Chrome',headless:true,args:['--enable-webgl','--use-angle=swiftshader','--enable-unsafe-swiftshader']});
+ const page=await browser.newPage({viewport:{width:1440,height:1000},deviceScaleFactor:1});
+ const errors=[];page.on('pageerror',e=>errors.push(e.message));page.on('console',m=>{if(m.type()==='error')errors.push(m.text())});
+ await page.goto('http://127.0.0.1:5173/',{waitUntil:'networkidle'});
+ await page.locator('.scene-host[data-ready="true"]').waitFor({timeout:60000});
+ await page.waitForTimeout(1500);
+ await page.screenshot({path:'artifacts/desktop.png'});
+ console.log('SCENE',await page.locator('.scene-host').evaluate(e=>({...e.dataset})));console.log('WARNINGS',await page.locator('.warning').allTextContents());
+ console.log('LABELS',await page.locator('.map-label').count());
+ await page.getByRole('button',{name:'俯视地图',exact:true}).click();await page.waitForTimeout(600);await page.screenshot({path:'artifacts/top-view.png'});
+ await page.getByRole('button',{name:'等轴视角',exact:true}).click();
+ await page.getByRole('button',{name:'紫峰大厦',exact:true}).click();await page.waitForTimeout(1200);
+ await page.getByRole('heading',{name:'紫峰大厦',exact:true}).waitFor();
+ await page.getByRole('button',{name:'放大地图'}).click();await page.getByRole('button',{name:'放大地图'}).click();await page.waitForTimeout(600);
+ await page.screenshot({path:'artifacts/selected.png'});
+ await page.getByRole('checkbox',{name:'简模对照'}).check();await page.waitForTimeout(300);await page.getByRole('checkbox',{name:'简模对照'}).uncheck();
+ await page.getByRole('checkbox',{name:'树木',exact:true}).uncheck();await page.getByRole('checkbox',{name:'树木',exact:true}).check();
+ await page.getByRole('checkbox',{name:'路名',exact:true}).uncheck();await page.getByRole('checkbox',{name:'路名',exact:true}).check();
+ await page.getByRole('button',{name:'回到全景'}).click();
+ await page.getByRole('textbox',{name:'搜索景点'}).fill('中华');if(await page.locator('.landmark-button').count()!==1)throw new Error('Search count wrong');await page.getByRole('button',{name:'清空搜索'}).click();
+ await page.setViewportSize({width:390,height:844});await page.waitForTimeout(600);await page.screenshot({path:'artifacts/mobile.png'});
+ await page.getByRole('button',{name:'探索 14 处风景'}).click();await page.getByRole('button',{name:'中山陵',exact:true}).click();await page.waitForTimeout(1000);await page.getByRole('heading',{name:'中山陵',exact:true}).waitFor();await page.screenshot({path:'artifacts/mobile-selected.png'});
+ console.log('OVERFLOW',await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth));console.log('ERRORS',errors);
+ await browser.close();if(errors.length)process.exitCode=1;
+})().catch(e=>{console.error(e);process.exit(1)});

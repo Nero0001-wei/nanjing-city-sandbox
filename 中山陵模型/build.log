@@ -1,0 +1,199 @@
+/Users/echo/Documents/AIGC/南京城市沙盘/中山陵模型/build_zhongshan.py:23: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m.use_nodes=True;n=m.node_tree.nodes;l=m.node_tree.links;n.clear();bs=n.new('ShaderNodeBsdfPrincipled');out=n.new('ShaderNodeOutputMaterial');l.new(bs.outputs['BSDF'],out.inputs['Surface']);bs.inputs['Base Color'].default_value=m.diffuse_color
+/Users/echo/Documents/AIGC/南京城市沙盘/中山陵模型/build_zhongshan.py:367: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  world=bpy.data.worlds.new('柔和日光环境');bpy.context.scene.world=world;world.use_nodes=True
+INFO Draco is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_draco_bridge.dylib
+INFO MeshOptimizer is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_meshopt_bridge.dylib
+20:02:04 | INFO: Starting glTF 2.0 export
+20:02:04 | INFO: Extracting primitive: 侧墙_浅浮雕框线
+20:02:04 | INFO: Primitives created: 1
+20:02:04 | INFO: Extracting primitive: 叠台_石材拼缝
+20:02:04 | INFO: Primitives created: 1
+20:02:04 | INFO: Extracting primitive: 台阶_斜栏板
+20:02:04 | INFO: Primitives created: 1
+20:02:04 | INFO: Extracting primitive: 屋檐_叠涩石枋
+20:02:04 | INFO: Primitives created: 1
+20:02:04 | INFO: Extracting primitive: 屋檐_叠涩石枋.001
+20:02:04 | INFO: Primitives created: 1
+20:02:04 | INFO: Extracting primitive: 屋顶_正脊与垂脊
+20:02:04 | INFO: Primitives created: 1
+20:02:04 | INFO: Extracting primitive: 屋顶_瓦片搭接
+20:02:04 | INFO: Primitives created: 1
+20:02:04 | INFO: Extracting primitive: 屋顶_纵向筒瓦
+20:02:04 | INFO: Primitives created: 2
+20:02:04 | INFO: Extracting primitive: 屋顶_连续曲面瓦底
+20:02:04 | INFO: Primitives created: 1
+20:02:04 | INFO: Extracting primitive: 山墙_三角石饰_1
+20:02:04 | INFO: Primitives created: 1
+20:02:04 | INFO: Extracting primitive: 山墙_三角石饰_-1
+20:02:04 | INFO: Primitives created: 1
+20:02:04 | INFO: Extracting primitive: 平台_铺石分缝
+20:02:04 | INFO: Primitives created: 1
+20:02:04 | INFO: Extracting primitive: 底座_22x34
+20:02:04 | INFO: Primitives created: 1
+20:02:04 | INFO: Extracting primitive: 拱门_石拱圈与门套
+20:02:04 | INFO: Primitives created: 1
+20:02:04 | INFO: Extracting primitive: 方柱_基座及冠部
+20:02:04 | INFO: Primitives created: 1
+20:02:04 | INFO: Extracting primitive: 方柱_基座及冠部.001
+20:02:04 | INFO: Primitives created: 1
+20:02:04 | INFO: Extracting primitive: 方柱_基座及冠部.002
+20:02:04 | INFO: Primitives created: 1
+20:02:04 | INFO: Extracting primitive: 方柱_基座及冠部.003
+20:02:04 | INFO: Primitives created: 1
+20:02:04 | INFO: Extracting primitive: 方柱_基座及冠部.004
+20:02:04 | INFO: Primitives created: 1
+20:02:04 | INFO: Extracting primitive: 方柱_基座及冠部.005
+20:02:04 | INFO: Primitives created: 1
+20:02:04 | INFO: Extracting primitive: 方柱_基座及冠部.006
+20:02:04 | INFO: Primitives created: 1
+20:02:04 | INFO: Extracting primitive: 方柱_基座及冠部.007
+20:02:04 | INFO: Primitives created: 1
+20:02:04 | INFO: Extracting primitive: 方柱_横缝
+20:02:04 | INFO: Primitives created: 1
+20:02:04 | INFO: Extracting primitive: 方柱_横缝.001
+20:02:04 | INFO: Primitives created: 1
+20:02:04 | INFO: Extracting primitive: 方柱_横缝.002
+20:02:04 | INFO: Primitives created: 1
+20:02:04 | INFO: Extracting primitive: 方柱_横缝.003
+20:02:04 | INFO: Primitives created: 1
+20:02:04 | INFO: Extracting primitive: 方柱_横缝.004
+20:02:04 | INFO: Primitives created: 1
+20:02:04 | INFO: Extracting primitive: 方柱_横缝.005
+20:02:04 | INFO: Primitives created: 1
+20:02:04 | INFO: Extracting primitive: 方柱_横缝.006
+20:02:04 | INFO: Primitives created: 1
+20:02:04 | INFO: Extracting primitive: 方柱_横缝.007
+20:02:04 | INFO: Primitives created: 1
+20:02:04 | INFO: Extracting primitive: 方柱_横缝.008
+20:02:04 | INFO: Primitives created: 1
+20:02:04 | INFO: Extracting primitive: 方柱_横缝.009
+20:02:04 | INFO: Primitives created: 1
+20:02:04 | INFO: Extracting primitive: 方柱_横缝.010
+20:02:04 | INFO: Primitives created: 1
+20:02:04 | INFO: Extracting primitive: 方柱_横缝.011
+20:02:04 | INFO: Primitives created: 1
+20:02:04 | INFO: Extracting primitive: 方柱_横缝.012
+20:02:04 | INFO: Primitives created: 1
+20:02:04 | INFO: Extracting primitive: 方柱_横缝.013
+20:02:04 | INFO: Primitives created: 1
+20:02:04 | INFO: Extracting primitive: 方柱_竖缝
+20:02:04 | INFO: Primitives created: 1
+20:02:04 | INFO: Extracting primitive: 方柱_竖缝.001
+20:02:04 | INFO: Primitives created: 1
+20:02:04 | INFO: Extracting primitive: 方柱_竖缝.002
+20:02:04 | INFO: Primitives created: 1
+20:02:04 | INFO: Extracting primitive: 方柱_竖缝.003
+20:02:04 | INFO: Primitives created: 1
+20:02:04 | INFO: Extracting primitive: 方柱_竖缝.004
+20:02:04 | INFO: Primitives created: 1
+20:02:04 | INFO: Extracting primitive: 方柱_竖缝.005
+20:02:04 | INFO: Primitives created: 1
+20:02:04 | INFO: Extracting primitive: 方柱_竖缝.006
+20:02:04 | INFO: Primitives created: 1
+20:02:04 | INFO: Extracting primitive: 方柱_竖缝.007
+20:02:04 | INFO: Primitives created: 1
+20:02:04 | INFO: Extracting primitive: 方柱_竖缝.008
+20:02:04 | INFO: Primitives created: 1
+20:02:04 | INFO: Extracting primitive: 方柱_竖缝.009
+20:02:04 | INFO: Primitives created: 1
+20:02:04 | INFO: Extracting primitive: 方柱_竖缝.010
+20:02:04 | INFO: Primitives created: 1
+20:02:04 | INFO: Extracting primitive: 方柱_竖缝.011
+20:02:04 | INFO: Primitives created: 1
+20:02:04 | INFO: Extracting primitive: 方柱_竖缝.012
+20:02:04 | INFO: Primitives created: 1
+20:02:04 | INFO: Extracting primitive: 方柱_竖缝.013
+20:02:04 | INFO: Primitives created: 1
+20:02:04 | INFO: Extracting primitive: 方柱_竖缝.014
+20:02:04 | INFO: Primitives created: 1
+20:02:04 | INFO: Extracting primitive: 方柱_竖缝.015
+20:02:04 | INFO: Primitives created: 1
+20:02:04 | INFO: Extracting primitive: 望柱_柱身与层叠柱帽
+20:02:04 | INFO: Primitives created: 1
+20:02:04 | INFO: Extracting primitive: 望柱_浅浮雕与凹框
+20:02:04 | INFO: Primitives created: 1
+20:02:04 | INFO: Extracting primitive: 木门_拱形门扇
+20:02:04 | INFO: Primitives created: 1
+20:02:04 | INFO: Extracting primitive: 木门_框线与分格
+20:02:04 | INFO: Primitives created: 1
+20:02:04 | INFO: Extracting primitive: 木门_铜门环
+20:02:04 | INFO: Primitives created: 1
+20:02:04 | INFO: Extracting primitive: 檐下_斗拱与齿饰
+20:02:04 | INFO: Primitives created: 1
+20:02:04 | INFO: Extracting primitive: 石栏_栏板扶手与立柱
+20:02:04 | INFO: Primitives created: 1
+20:02:04 | INFO: Extracting primitive: 祭堂_上层额枋
+20:02:04 | INFO: Primitives created: 1
+20:02:04 | INFO: Extracting primitive: 祭堂_侧后墙分块石砌
+20:02:04 | INFO: Primitives created: 5
+20:02:04 | INFO: Extracting primitive: 祭堂_内部地面
+20:02:04 | INFO: Primitives created: 1
+20:02:04 | INFO: Extracting primitive: 祭堂_内部顶板
+20:02:04 | INFO: Primitives created: 1
+20:02:04 | INFO: Extracting primitive: 祭堂_基脚
+20:02:04 | INFO: Primitives created: 1
+20:02:04 | INFO: Extracting primitive: 立面_三孔拱门实体墙
+20:02:04 | INFO: Primitives created: 1
+20:02:04 | INFO: Extracting primitive: 立面_横向石线脚
+20:02:04 | INFO: Primitives created: 1
+20:02:04 | INFO: Extracting primitive: 立面_横向石线脚.001
+20:02:04 | INFO: Primitives created: 1
+20:02:04 | INFO: Extracting primitive: 立面_横向石线脚.002
+20:02:04 | INFO: Primitives created: 1
+20:02:04 | INFO: Extracting primitive: 立面_端部方塔柱
+20:02:04 | INFO: Primitives created: 1
+20:02:04 | INFO: Extracting primitive: 立面_端部方塔柱.001
+20:02:04 | INFO: Primitives created: 1
+20:02:04 | INFO: Extracting primitive: 立面_门间石柱
+20:02:04 | INFO: Primitives created: 1
+20:02:04 | INFO: Extracting primitive: 第1层_实心平台
+20:02:04 | INFO: Primitives created: 1
+20:02:04 | INFO: Extracting primitive: 第1段_28级台阶
+20:02:04 | INFO: Primitives created: 1
+20:02:04 | INFO: Extracting primitive: 第1段_踏步前缘
+20:02:04 | INFO: Primitives created: 1
+20:02:04 | INFO: Extracting primitive: 第2层_实心平台
+20:02:04 | INFO: Primitives created: 1
+20:02:04 | INFO: Extracting primitive: 第2段_28级台阶
+20:02:04 | INFO: Primitives created: 1
+20:02:04 | INFO: Extracting primitive: 第2段_踏步前缘
+20:02:04 | INFO: Primitives created: 1
+20:02:04 | INFO: Extracting primitive: 第3层_实心平台
+20:02:04 | INFO: Primitives created: 1
+20:02:04 | INFO: Extracting primitive: 第3段_28级台阶
+20:02:04 | INFO: Primitives created: 1
+20:02:04 | INFO: Extracting primitive: 第3段_踏步前缘
+20:02:04 | INFO: Primitives created: 1
+20:02:04 | INFO: Extracting primitive: 门洞_内返边
+20:02:04 | INFO: Primitives created: 1
+20:02:04 | INFO: Extracting primitive: 门洞_内返边.001
+20:02:04 | INFO: Primitives created: 1
+20:02:04 | INFO: Extracting primitive: 门洞_内返边.002
+20:02:04 | INFO: Primitives created: 1
+20:02:04 | INFO: Extracting primitive: 门洞_内返边.003
+20:02:04 | INFO: Primitives created: 1
+20:02:04 | INFO: Extracting primitive: 门洞_内返边.004
+20:02:04 | INFO: Primitives created: 1
+20:02:04 | INFO: Extracting primitive: 门洞_内返边.005
+20:02:04 | INFO: Primitives created: 1
+20:02:04 | INFO: Extracting primitive: 额枋_方形石饰
+20:02:04 | INFO: Primitives created: 1
+20:02:04 | INFO: Extracting primitive: 额枋_方形石饰.001
+20:02:04 | INFO: Primitives created: 1
+20:02:04 | INFO: Finished glTF 2.0 export in 0.41810107231140137 s
+
+信息: 已另存为 "中山陵_无树木_带材质.blend"
+MODEL_READY {'blender': '5.2.1 LTS', 'mesh_objects': 88, 'vertices': 267098, 'polygons': 246238, 'materials': 18, 'dimensions': [22, 34, 15.242]}
+00:38.962  render           | Saved: '/Users/echo/Documents/AIGC/南京城市沙盘/中山陵模型/中山陵_实模渲染_侧前方.png'
+RENDERED 侧前方
+01:25.423  render           | Saved: '/Users/echo/Documents/AIGC/南京城市沙盘/中山陵模型/中山陵_实模渲染_正面.png'
+RENDERED 正面
+01:38.584  render           | Saved: '/Users/echo/Documents/AIGC/南京城市沙盘/中山陵模型/中山陵_实模渲染_右侧正交.png'
+RENDERED 右侧正交
+02:24.423  render           | Saved: '/Users/echo/Documents/AIGC/南京城市沙盘/中山陵模型/中山陵_实模渲染_建筑细节.png'
+RENDERED 建筑细节
+COMPLETE
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)
+
+Blender quit

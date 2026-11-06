@@ -1,0 +1,19 @@
+{
+  "url": "http://127.0.0.1:5173/?landmark=nanjing-eye",
+  "triangles": {
+    "museum": 39152,
+    "zifeng": 24484,
+    "yuejiang": 39622,
+    "jiming": 36744,
+    "mingxiaoling": 38308,
+    "meiling": 37268,
+    "presidential": 36674,
+    "fuzimiao": 36974,
+    "yangtze-bridge": 37044,
+    "zhonghua": 38780,
+    "baoen": 35628,
+    "nanjing-eye": 30356,
+    "zhongshan": 36774
+  },
+  "console": []
+}

@@ -1,0 +1,15 @@
+{
+  "id": "aoti",
+  "triangles": 38018,
+  "glb_bytes": 3174880,
+  "material_count": 9,
+  "embedded_images": 3,
+  "vertex_ao": true,
+  "sha256": "5b5b4794dc1616f74f96a588b24f9857d8f775ca5ae41ec63ec332da66f4c2ce",
+  "blender_dimensions": [
+    41.0,
+    41.0,
+    11.1015
+  ],
+  "scene_scale": 0.38
+}

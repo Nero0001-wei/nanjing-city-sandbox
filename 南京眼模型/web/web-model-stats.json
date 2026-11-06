@@ -1,0 +1,35 @@
+{
+  "id": "nanjing-eye",
+  "triangles": 30356,
+  "glb_bytes": 3096500,
+  "material_count": 5,
+  "embedded_images": 2,
+  "vertex_ao": true,
+  "sha256": "18b3b1e6a158394188af82a93b642aac0ecb2f56dfd4b0368116d940a2359018",
+  "blender_dimensions": [
+    56.075,
+    9.26416,
+    12.50829
+  ],
+  "scene_scale": 0.3229860731394905,
+  "scene_offset": [
+    -2.115938899965181,
+    0.02,
+    -1.0532778825596778
+  ],
+  "scene_rotation_y": -0.7600583401300415,
+  "source_endpoints": [
+    [
+      121.304078,
+      604.629209
+    ],
+    [
+      136.910675,
+      619.464255
+    ]
+  ],
+  "native_deck_length": 40,
+  "native_deck_top": 5.133348270666601,
+  "road_lift": 1.64,
+  "deck_surface_clearance": 0.018
+}

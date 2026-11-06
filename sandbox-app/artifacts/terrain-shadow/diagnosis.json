@@ -1,0 +1,8 @@
+{
+  "gpu": {
+    "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M5, Unspecified Version)",
+    "shadowType": 3,
+    "shadowTexture": 1016
+  },
+  "errors": []
+}

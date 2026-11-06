@@ -1,0 +1,35 @@
+{
+  "id": "yangtze-bridge",
+  "triangles": 37044,
+  "glb_bytes": 4398864,
+  "material_count": 8,
+  "embedded_images": 2,
+  "vertex_ao": true,
+  "sha256": "47f3bc90de032abfebf6db67fd4dcb89ab4b62162bf00c5327cc5b7f344a23d7",
+  "blender_dimensions": [
+    60.33,
+    5.7,
+    13.22
+  ],
+  "scene_scale": 0.6661128596140101,
+  "scene_offset": [
+    6.761167699658131,
+    0.02,
+    8.356420234202846
+  ],
+  "scene_rotation_y": -0.7420523196136742,
+  "source_endpoints": [
+    [
+      238.54166458590976,
+      199.24266141397703
+    ],
+    [
+      287.63972107952617,
+      244.2587059534653
+    ]
+  ],
+  "native_deck_length": 60,
+  "native_deck_top": 5.168793771666714,
+  "road_lift": 3.425,
+  "deck_surface_clearance": 0.018
+}

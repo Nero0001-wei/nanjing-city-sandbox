@@ -1,0 +1,39 @@
+{
+  "url": "http://127.0.0.1:5173/?landmark=aoti",
+  "scene": {
+    "adjustedRoads": "30",
+    "buildings": "11500",
+    "buildingsVisible": "true",
+    "cameraMoving": "false",
+    "cameraZoom": "10.000",
+    "drawCalls": "65",
+    "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M5, Unspecified Version)",
+    "hills": "雨花台、菊花台、五台山、清凉山、古林公园丘陵、北极阁、九华山、富贵山、红山、幕府山南麓",
+    "infillBuildings": "613",
+    "interiorRoadEnds": "0",
+    "landmarkTriangles": "{\"zifeng\":24484,\"jiming\":36744,\"yuejiang\":39622,\"mingxiaoling\":38308,\"meiling\":37268,\"museum\":39152,\"yangtze-bridge\":37044,\"presidential\":36674,\"zhongshan\":36774,\"fuzimiao\":36974,\"baoen\":35628,\"zhonghua\":38780,\"nanjing-eye\":30356,\"aoti\":38018}",
+    "lowRiverBridges": "27",
+    "parcels": "946",
+    "piers": "21",
+    "plantedTrees": "559",
+    "ready": "true",
+    "roadComponents": "1",
+    "roads": "935",
+    "rocks": "50",
+    "treeAsset": "/models/trees.glb?v=blender-trees-v1-7c351dc9",
+    "treeBatches": "14",
+    "treeSpecies": "{\"plane\":523,\"camphor\":639,\"cedar\":203,\"blossom\":121,\"ginkgo\":316,\"pine\":194,\"willow\":64}",
+    "treeTriangles": "341292",
+    "trees": "2060",
+    "triangles": "665649",
+    "wallGates": "12",
+    "wallSegments": "27",
+    "wallsVisible": "true"
+  },
+  "console": [],
+  "click_transition_observed": {
+    "cameraMoving": true,
+    "cameraZoom": "1.008",
+    "targetZoom": "10.000"
+  }
+}

@@ -1,0 +1,19 @@
+GEOMETRY_TRIANGLES meiling 37268
+/Users/echo/Documents/AIGC/南京城市沙盘/景点建模工具/build_landmark.py:292: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  world=bpy.data.worlds.new('柔和日光');scene.world=world;world.use_nodes=True;bg=world.node_tree.nodes.get('Background');bg.inputs['Color'].default_value=(.71,.79,.93,1);bg.inputs['Strength'].default_value=.45
+Info: Saved as "美龄宫_分组可编辑_带材质.blend"
+INFO Draco is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_draco_bridge.dylib
+INFO MeshOptimizer is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_meshopt_bridge.dylib
+22:14:38 | INFO: Starting glTF 2.0 export
+22:14:38 | INFO: Extracting primitive: 三层别墅_石基
+22:14:38 | INFO: Primitives created: 11
+22:14:38 | INFO: Finished glTF 2.0 export in 0.0375211238861084 s
+
+Info: Saved as "美龄宫_网页版.blend"
+MODEL_READY {'id': 'meiling', 'triangles': 37268, 'glb_bytes': 2603000, 'glb_mib': 2.482, 'material_count': 11, 'embedded_images': 3, 'vertex_ao': True, 'sha256': 'b083c5ac4a840aebee12e5b99ef02f769ed8b94b402c60eb7b8435f101daadca', 'blender_dimensions': [20.0, 17.0, 11.1149], 'scene_scale': 0.47}
+00:42.722  render           | Saved: '/Users/echo/Documents/AIGC/南京城市沙盘/美龄宫模型/web/美龄宫_实模_侧前方.png'
+00:55.128  render           | Saved: '/Users/echo/Documents/AIGC/南京城市沙盘/美龄宫模型/web/美龄宫_实模_正面.png'
+01:01.799  render           | Saved: '/Users/echo/Documents/AIGC/南京城市沙盘/美龄宫模型/web/美龄宫_实模_侧面.png'
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)
+
+Blender quit

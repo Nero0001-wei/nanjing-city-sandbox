@@ -1,0 +1,28 @@
+{
+  "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M5, Unspecified Version)",
+  "base": {
+    "depth": 12.4,
+    "layers": 3,
+    "triangles": 800,
+    "interpretation": "artistic cutaway"
+  },
+  "bounds": {
+    "min": [
+      -192,
+      -12.399999618530273,
+      -156
+    ],
+    "max": [
+      204,
+      0,
+      156
+    ]
+  },
+  "floorY": -12.450000000000001,
+  "terrainTriangles": 107402,
+  "terrainCastShadow": false,
+  "pcf": true,
+  "materialCount": 1,
+  "consoleErrors": [],
+  "preservedFiles": 27
+}

@@ -1,0 +1,7 @@
+node_modules/
+dist/
+*.blend1
+artifacts/*.png
+
+.venv-urban/
+__pycache__/

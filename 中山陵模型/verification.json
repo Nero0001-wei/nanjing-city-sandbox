@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "mesh_objects": 88,
+  "dimensions": [
+    22.0,
+    34.0,
+    15.2422
+  ],
+  "bounds_min": [
+    -11.0,
+    -17.0,
+    0.0
+  ],
+  "bounds_max": [
+    11.0,
+    17.0,
+    15.24221420288086
+  ],
+  "external_texture_dependencies": 0,
+  "cameras": 4,
+  "gltf_meshes": 88,
+  "gltf_materials": 15
+}

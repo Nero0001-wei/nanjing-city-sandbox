@@ -1,0 +1,18 @@
+{
+  "triangles": 800,
+  "materialCount": 1,
+  "depth": 12.4,
+  "unpairedEdges": 0,
+  "bounds": {
+    "min": [
+      -192,
+      -12.399999618530273,
+      -156
+    ],
+    "max": [
+      204,
+      0,
+      156
+    ]
+  }
+}

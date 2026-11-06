@@ -1,0 +1,35 @@
+{
+  "checks": [
+    {
+      "action": "bridge selection",
+      "moving": "true",
+      "zoom": "7.054"
+    },
+    {
+      "action": "retarget during flight",
+      "moving": "true",
+      "zoom": "7.330"
+    },
+    {
+      "action": "manual drag interrupts",
+      "moving": "false",
+      "zoom": "7.370"
+    },
+    {
+      "action": "select during top-view transition",
+      "moving": "false",
+      "zoom": "7.000"
+    },
+    {
+      "action": "wheel interrupts",
+      "moving": "false",
+      "zoom": "5.548"
+    },
+    {
+      "action": "reset overview",
+      "moving": "false",
+      "zoom": "1.000"
+    }
+  ],
+  "console": []
+}

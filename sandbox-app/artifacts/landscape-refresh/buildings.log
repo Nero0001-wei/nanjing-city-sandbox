@@ -1,0 +1,27 @@
+{
+  "source": "OpenStreetMap API snapshot 2026-10-29",
+  "attribution": "© OpenStreetMap contributors, ODbL 1.0",
+  "source_count": 22083,
+  "candidate_count": 17467,
+  "count": 11500,
+  "height_counts": {
+    "type_estimate": 8547,
+    "osm_height": 2273,
+    "levels_estimate": 680
+  },
+  "excluded": {
+    "displayed_road_clearance": 874,
+    "small_footprint": 1377,
+    "landmark_reserve": 1052,
+    "city_wall_fabric": 10,
+    "scenic_terrain": 523,
+    "schematic_water_mask": 639,
+    "city_wall_clearance": 119,
+    "road_edge_clearance": 1,
+    "complete_bridge_reserve": 21
+  },
+  "selection": "Selected complete OSM footprints >=120 m² across the full urban area, including block interiors, with clearance around landmarks, city walls, stylized water and roads. Max 11500, balanced across spatial cells.",
+  "height_note": "osm_height is an OSM height tag, not independent measurement. levels_estimate and type_estimate are estimates, not surveyed heights.",
+  "vertical_exaggeration": 1.6,
+  "metres_per_source_pixel": 32.4
+}

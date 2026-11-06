@@ -1,0 +1,153 @@
+// UI acceptance on the actual hardware renderer. Scene/model hashes are checked separately.
+const {chromium}=require('/Users/echo/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
+const assert=require('node:assert/strict');
+const fs=require('node:fs');
+const path=require('node:path');
+const crypto=require('node:crypto');
+const root=path.resolve(__dirname,'..'),out=path.join(root,'artifacts/ui-museum');
+const base=process.env.UI_QA_URL||'http://127.0.0.1:5173/';
+(async()=>{
+  const preserved=JSON.parse(fs.readFileSync(path.join(out,'preserved-hashes.json')));
+  for(const [file,hash] of Object.entries(preserved))assert.equal(crypto.createHash('sha256').update(fs.readFileSync(path.join(root,file))).digest('hex'),hash,`${file} must stay unchanged`);
+  const browser=await chromium.launch({executablePath:'/Applications/Google Chrome.app/Contents/MacOS/Google Chrome',headless:true,args:['--enable-webgl','--use-angle=metal']});
+  try{
+    const page=await browser.newPage({viewport:{width:1440,height:1000}}),errors=[],failed=[];
+    page.on('pageerror',e=>errors.push(e.message));page.on('console',m=>{if(m.type()==='error')errors.push(m.text());});
+    page.on('response',r=>{if(r.status()>=400)failed.push({url:r.url(),status:r.status()});});
+    await page.goto(base,{waitUntil:'networkidle'});
+    await page.locator('.scene-host[data-ready="true"]').waitFor({timeout:90000});
+    const gpu=await page.locator('.scene-host').getAttribute('data-gpu');assert(!/swiftshader|llvmpipe/i.test(gpu));
+    const settled=async()=>{await page.evaluate(()=>new Promise(requestAnimationFrame));await page.waitForFunction(()=>document.querySelector('.scene-host').dataset.cameraMoving==='false');};
+    const screenshot=async name=>{await settled();await page.screenshot({path:path.join(out,name+'.png'),animations:'disabled'});};
+    const photo=async()=>{await page.locator('.photo-preview>img').evaluate(img=>img.decode());};
+    await screenshot('desktop-overview');
+    await page.keyboard.press('Tab');assert(await page.locator('.skip-link').evaluate(e=>e===document.activeElement));
+    await page.keyboard.press('Enter');assert(await page.locator('main').evaluate(e=>e===document.activeElement));
+    await page.getByRole('button',{name:'图层',exact:true}).focus();await page.keyboard.press('Space');
+    assert.equal(await page.getByRole('button',{name:'图层',exact:true}).getAttribute('aria-expanded'),'true');
+    await screenshot('desktop-layers');
+    const beforeTrees=Number(await page.locator('.scene-host').getAttribute('data-triangles'));
+    await page.getByRole('checkbox',{name:'树木',exact:true}).uncheck();
+    await page.waitForFunction(n=>Number(document.querySelector('.scene-host').dataset.triangles)<n,beforeTrees);
+    const withoutTrees=Number(await page.locator('.scene-host').getAttribute('data-triangles'));
+    await page.getByRole('checkbox',{name:'树木',exact:true}).check();
+    await page.waitForFunction(n=>Number(document.querySelector('.scene-host').dataset.triangles)>n,withoutTrees);
+    await page.getByRole('checkbox',{name:'路名',exact:true}).uncheck();
+    assert(await page.locator('.road-label').evaluateAll(els=>els.length>0&&els.every(e=>e.style.visibility==='hidden')));
+    await page.getByRole('checkbox',{name:'路名',exact:true}).check();
+    assert(await page.locator('.road-label').evaluateAll(els=>els.every(e=>e.style.visibility==='visible')));
+    for(const [name,key] of [['建筑白模','buildingsVisible'],['明城墙','wallsVisible']]){
+      await page.getByRole('checkbox',{name,exact:true}).uncheck();
+      assert.equal(await page.locator('.scene-host').evaluate((e,k)=>e.dataset[k],key),'false');
+      await page.getByRole('checkbox',{name,exact:true}).check();
+      assert.equal(await page.locator('.scene-host').evaluate((e,k)=>e.dataset[k],key),'true');
+    }
+    const beforeModels=Number(await page.locator('.scene-host').getAttribute('data-triangles'));
+    await page.getByRole('checkbox',{name:'简模对照',exact:true}).check();
+    await page.waitForFunction(n=>Number(document.querySelector('.scene-host').dataset.triangles)<n,beforeModels);
+    const withoutModels=Number(await page.locator('.scene-host').getAttribute('data-triangles'));
+    await page.getByRole('checkbox',{name:'简模对照',exact:true}).uncheck();
+    await page.waitForFunction(n=>Number(document.querySelector('.scene-host').dataset.triangles)>n,withoutModels);
+    await page.keyboard.press('Escape');assert.equal(await page.locator('.map-options').count(),0);
+    assert(await page.getByRole('button',{name:'图层',exact:true}).evaluate(e=>e===document.activeElement));
+    await page.getByRole('button',{name:'俯视地图',exact:true}).click();await settled();
+    assert.equal(await page.getByRole('button',{name:'俯视地图',exact:true}).getAttribute('aria-pressed'),'true');
+    await screenshot('desktop-top-view');
+    const z0=Number(await page.locator('.scene-host').getAttribute('data-camera-zoom'));
+    await page.getByRole('button',{name:'放大地图'}).click();await settled();
+    assert(Number(await page.locator('.scene-host').getAttribute('data-camera-zoom'))>z0);
+    await page.getByRole('button',{name:'缩小地图'}).click();await settled();
+    assert(Math.abs(Number(await page.locator('.scene-host').getAttribute('data-camera-zoom'))-z0)<.002);
+    await page.getByRole('button',{name:'等轴视角',exact:true}).click();await settled();
+    const canvas=await page.locator('canvas').boundingBox();
+    const labelBefore=await page.getByRole('button',{name:'查看玄武湖',exact:true}).getAttribute('style');
+    await page.mouse.move(canvas.x+canvas.width*.42,canvas.y+canvas.height*.35);await page.mouse.down();
+    await page.mouse.move(canvas.x+canvas.width*.42+80,canvas.y+canvas.height*.35+20,{steps:12});await page.mouse.up();
+    await page.waitForFunction(old=>document.querySelector('[aria-label="查看玄武湖"]').getAttribute('style')!==old,labelBefore);
+    await page.getByRole('button',{name:'回到全景'}).click();await settled();
+    await page.getByRole('button',{name:'查看玄武湖',exact:true}).click();
+    await page.getByRole('heading',{name:'玄武湖',exact:true}).waitFor();
+    await page.keyboard.press('Escape');assert.equal(await page.locator('.detail-panel').count(),0);
+    await page.getByRole('textbox',{name:'搜索景点'}).fill('不存在的景点');
+    assert(await page.getByText('还没有找到这处风景').isVisible());
+    await page.getByRole('button',{name:'查看全部景点'}).click();assert.equal(await page.locator('.landmark-button').count(),15);
+    await page.locator('.landmark-button').filter({hasText:'中山陵'}).click();await photo();await settled();
+    await screenshot('desktop-guide');
+    await page.getByRole('button',{name:'收起景点详情'}).click();
+    assert.equal(await page.locator('.detail-scroll').isVisible(),false);await screenshot('desktop-map-focus');
+    await page.getByRole('button',{name:'展开景点详情'}).click();
+    await page.getByRole('button',{name:'景点介绍',exact:true}).click();
+    await page.waitForFunction(()=>Math.abs(document.querySelector('.guide-about').getBoundingClientRect().top-document.querySelector('.detail-scroll').getBoundingClientRect().top-20)<2);
+    await screenshot('desktop-reading');
+    await page.getByRole('button',{name:'主要看点',exact:true}).click();
+    await page.waitForFunction(()=>Math.abs(document.querySelector('.guide-features').getBoundingClientRect().top-document.querySelector('.detail-scroll').getBoundingClientRect().top-20)<2);
+    await page.getByRole('button',{name:'实景照片',exact:true}).click();
+    await page.waitForFunction(()=>document.querySelector('.detail-scroll').scrollTop<1);
+    await page.getByText('摄影来源与许可',{exact:true}).click();
+    assert(await page.locator('.photo-gallery .photo-credit a').first().isVisible());
+    await page.getByText('摄影来源与许可',{exact:true}).click();
+    await page.getByRole('button',{name:'图层',exact:true}).click();await page.keyboard.press('Escape');
+    assert.equal(await page.locator('.detail-panel').count(),1,'Escape closes layers without closing the guide');
+    await page.getByRole('button',{name:'操作指引',exact:true}).click();
+    await page.locator('.help-dialog[open]').waitFor();await screenshot('desktop-help');
+    await page.locator('.map-notes summary').click();assert(await page.locator('.map-notes div').isVisible());
+    await page.keyboard.press('Escape');assert.equal(await page.locator('.help-dialog[open]').count(),0);
+    assert.equal(await page.locator('.detail-panel').count(),1);
+    assert(await page.getByRole('button',{name:'操作指引',exact:true}).evaluate(e=>e===document.activeElement));
+    await page.getByRole('button',{name:'关闭景点详情'}).click();
+    assert(await page.locator('.landmark-button.selected').count()===0);
+    await page.waitForFunction(()=>document.querySelector('.landmark-button[aria-label="中山陵"]')===document.activeElement);
+    const responsive=[];
+    for(const viewport of [{width:1280,height:800},{width:1024,height:768},{width:768,height:1024},{width:390,height:844},{width:375,height:812},{width:320,height:740},{width:844,height:390}]){
+      await page.setViewportSize(viewport);
+      if(viewport.width<=900){
+        await page.getByRole('button',{name:'探索 15 处风景',exact:true}).click();
+        assert(await page.getByRole('button',{name:'关闭景点列表',exact:true}).evaluate(e=>e===document.activeElement));
+        assert(await page.locator('main').evaluate(e=>e.inert));
+        await page.locator('.landmark-button').last().focus();await page.keyboard.press('Tab');
+        assert(await page.getByRole('button',{name:'关闭景点列表',exact:true}).evaluate(e=>e===document.activeElement));
+        if(viewport.width===390)await screenshot('mobile-directory');
+      }
+      await page.locator('.landmark-button').filter({hasText:'南京奥体中心体育场'}).click();await photo();await settled();
+      const box=await page.locator('.detail-panel').boundingBox();
+      assert(box.x>=0&&box.y>=0&&box.x+box.width<=viewport.width+1&&box.y+box.height<=viewport.height,`Panel fits ${JSON.stringify(viewport)}`);
+      assert(await page.locator('.detail-scroll').evaluate(e=>e.clientHeight>=100),`Reading area at ${JSON.stringify(viewport)}`);
+      assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false);
+      await screenshot(`viewport-${viewport.width}x${viewport.height}`);
+      if(viewport.width<=900){
+        await page.getByRole('button',{name:'收起景点详情'}).click();
+        assert.equal(await page.locator('.detail-scroll').isVisible(),false);
+        if(viewport.width===390)await screenshot('mobile-map-focus');
+        await page.getByRole('button',{name:'展开景点详情'}).click();assert(await page.locator('.detail-scroll').isVisible());
+      }
+      await page.getByRole('button',{name:'景点介绍',exact:true}).click();
+      await page.waitForFunction(()=>Math.abs(document.querySelector('.guide-about').getBoundingClientRect().top-document.querySelector('.detail-scroll').getBoundingClientRect().top-20)<2);
+      if(viewport.width===390)await screenshot('mobile-reading');
+      await page.getByRole('button',{name:'图层',exact:true}).click();
+      const layers=await page.locator('.map-options').boundingBox();
+      assert(layers.x>=0&&layers.y>=0&&layers.x+layers.width<=viewport.width+1&&layers.y+layers.height<=viewport.height);
+      await page.getByRole('checkbox',{name:'简模对照',exact:true}).scrollIntoViewIfNeeded();
+      assert(await page.getByRole('checkbox',{name:'简模对照',exact:true}).isVisible());
+      if(viewport.width===390)await screenshot('mobile-layers');
+      await page.keyboard.press('Escape');await page.getByRole('button',{name:'关闭景点详情'}).click();
+      responsive.push(viewport);
+    }
+    await page.setViewportSize({width:390,height:844});
+    await page.getByRole('button',{name:'操作指引',exact:true}).click();await screenshot('mobile-help');
+    await page.keyboard.press('Escape');
+    await page.emulateMedia({reducedMotion:'reduce'});
+    await page.getByRole('button',{name:'探索 15 处风景',exact:true}).click();
+    await page.locator('.landmark-button').filter({hasText:'中山陵'}).click();await photo();
+    assert.equal(await page.locator('.detail-panel').evaluate(e=>getComputedStyle(e).animationName),'none');
+    await page.getByRole('button',{name:'景点介绍',exact:true}).click();
+    assert(await page.locator('.detail-scroll').evaluate(e=>e.scrollTop>100));
+    await page.getByRole('button',{name:'实景照片',exact:true}).click();
+    await page.locator('.photo-preview').click();await page.locator('.photo-full').evaluate(img=>img.decode());await screenshot('mobile-photo');
+    await page.keyboard.press('Escape');assert.equal(await page.locator('.detail-panel').count(),1);
+    assert.deepEqual(errors,[]);assert.deepEqual(failed,[]);
+    function luminance(hex){const rgb=hex.match(/[a-f0-9]{2}/gi).map(v=>parseInt(v,16)/255).map(v=>v<=.04045?v/12.92:((v+.055)/1.055)**2.4);return rgb[0]*.2126+rgb[1]*.7152+rgb[2]*.0722;}
+    const contrast={};for(const color of ['#244b3e','#34483f','#667167']){contrast[color]=+( (luminance('#f8f6ef')+.05)/(luminance(color)+.05) ).toFixed(2);assert(contrast[color]>=4.5);}
+    const report={gpu,preservedFiles:Object.keys(preserved).length,layerControls:['树木','路名','建筑白模','明城墙','简模对照'],mapInteractions:['等轴/俯视','放大/缩小','旋转','回到全景','点击地图标签'],guideNavigation:true,searchAndEmptyState:true,modalEscapeAndFocus:true,mobileDrawerFocusTrap:true,mobileCollapsibleGuide:true,reducedMotion:true,responsive,contrastOnPaper:contrast,consoleErrors:errors,failedResponses:failed};
+    fs.writeFileSync(path.join(out,'browser.json'),JSON.stringify(report,null,2));console.log(JSON.stringify(report,null,2));
+  }finally{await browser.close();}
+})().catch(e=>{console.error(e);process.exit(1);});

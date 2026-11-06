@@ -1,0 +1,21 @@
+{
+  "id": "museum",
+  "triangles": 39152,
+  "glb_bytes": 2781628,
+  "glb_mib": 2.653,
+  "material_count": 11,
+  "embedded_images": 2,
+  "vertex_ao": true,
+  "sha256": "a844332d195416f91176a30ac01dd10b92bbc76a8fcc0f7cbde995c5702435d2",
+  "blender_dimensions": [
+    34.0,
+    19.8,
+    10.9649
+  ],
+  "scene_scale": 0.4,
+  "scene_offset": [
+    -3.25,
+    0,
+    0
+  ]
+}

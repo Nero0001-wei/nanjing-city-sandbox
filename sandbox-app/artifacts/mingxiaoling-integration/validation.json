@@ -1,0 +1,30 @@
+{
+  "url": "http://127.0.0.1:5173/?landmark=mingxiaoling",
+  "loadedModelTriangles": {
+    "yangtze-bridge": 20980,
+    "yuejiang": 1158,
+    "jiming": 3312,
+    "meiling": 1240,
+    "zifeng": 1732,
+    "museum": 2090,
+    "zhonghua": 3456,
+    "presidential": 2414,
+    "nanjing-eye": 2604,
+    "fuzimiao": 4758,
+    "baoen": 14782,
+    "mingxiaoling": 38308,
+    "zhongshan": 36774
+  },
+  "checks": [
+    "near view",
+    "zoom",
+    "orbit",
+    "city overview",
+    "embedded materials and maps",
+    "13 landmarks loaded"
+  ],
+  "console": [],
+  "tests": 31,
+  "build": "passed",
+  "note": "No hardware FPS benchmark performed."
+}

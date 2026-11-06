@@ -1,0 +1,21 @@
+{
+  "id": "jiming",
+  "triangles": 36744,
+  "glb_bytes": 3044640,
+  "glb_mib": 2.904,
+  "material_count": 12,
+  "embedded_images": 4,
+  "vertex_ao": true,
+  "sha256": "586344ce36e71f6e5a99f08b23d91b84cde819d7d2d9522967e86ee1822ead8d",
+  "blender_dimensions": [
+    24.0,
+    16.0,
+    25.3
+  ],
+  "scene_scale": 0.43,
+  "scene_offset": [
+    0,
+    0,
+    3.6
+  ]
+}

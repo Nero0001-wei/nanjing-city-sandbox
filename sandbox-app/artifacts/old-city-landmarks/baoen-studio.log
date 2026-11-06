@@ -1,0 +1,10 @@
+00:00.326  blend            | Read blend: "/Users/echo/Documents/AIGC/南京城市沙盘/大报恩寺模型/大报恩寺_分组可编辑_带材质.blend"
+00:00.362  blend            | Read blend: "/Users/echo/Documents/AIGC/南京城市沙盘/大报恩寺模型/web/大报恩寺_网页版.blend"
+00:13.880  render           | Saved: '/Users/echo/Documents/AIGC/南京城市沙盘/大报恩寺模型/web/大报恩寺_实模_侧前方.png'
+00:17.364  render           | Saved: '/Users/echo/Documents/AIGC/南京城市沙盘/大报恩寺模型/web/大报恩寺_实模_正面.png'
+00:20.740  render           | Saved: '/Users/echo/Documents/AIGC/南京城市沙盘/大报恩寺模型/web/大报恩寺_实模_侧面.png'
+信息: 已另存为 "大报恩寺_分组可编辑_带材质.blend"
+信息: 已另存为 "大报恩寺_网页版.blend"
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)
+
+Blender quit

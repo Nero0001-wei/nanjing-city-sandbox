@@ -1,0 +1,6 @@
+00:00.507  blend            | Read blend: "/Users/echo/Documents/AIGC/南京城市沙盘/南京奥体中心模型/南京奥体中心体育场_分组可编辑_带材质.blend"
+00:00.532  blend            | Read blend: "/Users/echo/Documents/AIGC/南京城市沙盘/南京奥体中心模型/web/南京奥体中心体育场_网页版.blend"
+[{"file": "南京奥体中心体育场_分组可编辑_带材质.blend", "asset_meshes": 334, "triangles": 38018, "packed_images": 3, "all_images_packed": true}, {"file": "南京奥体中心体育场_网页版.blend", "asset_meshes": 1, "triangles": 38018, "packed_images": 3, "all_images_packed": true}]
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)
+
+Blender quit

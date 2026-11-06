@@ -1,0 +1,19 @@
+{
+  "before": {
+    "triangles": 1764535,
+    "drawCalls": 107
+  },
+  "after": {
+    "triangles": 1461369,
+    "drawCalls": 253
+  },
+  "checks": [
+    "near view",
+    "zoom",
+    "orbit",
+    "city overview",
+    "13 models loaded"
+  ],
+  "console": [],
+  "note": "Render counters are not a frame-rate benchmark."
+}

@@ -1,0 +1,33 @@
+{
+  "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M5, Unspecified Version)",
+  "landmarks": 15,
+  "photos": 30,
+  "checked": [
+    "yangtze-bridge",
+    "yuejiang",
+    "zifeng",
+    "jiming",
+    "xuanwu",
+    "mingxiaoling",
+    "zhongshan",
+    "meiling",
+    "museum",
+    "presidential",
+    "fuzimiao",
+    "zhonghua",
+    "baoen",
+    "nanjing-eye",
+    "aoti"
+  ],
+  "initialPhotoRequests": 0,
+  "normalConsoleErrors": [],
+  "normalFailedResponses": [],
+  "imageFailureFallback": true,
+  "responsiveWidths": [
+    1440,
+    390,
+    320,
+    844
+  ],
+  "photoBytes": 6840972
+}

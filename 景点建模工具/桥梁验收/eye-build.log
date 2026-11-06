@@ -1,0 +1,19 @@
+EVALUATED_TRIANGLES nanjing-eye 30356
+/Users/echo/Documents/AIGC/南京城市沙盘/景点建模工具/build_bridge.py:213: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  scene.world.use_nodes=True;bg=scene.world.node_tree.nodes.get('Background');bg.inputs['Color'].default_value=(.73,.80,.91,1);bg.inputs['Strength'].default_value=.45
+Info: Saved as "南京眼_分组可编辑_带材质.blend"
+INFO Draco is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_draco_bridge.dylib
+INFO MeshOptimizer is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_meshopt_bridge.dylib
+11:28:38 | INFO: Starting glTF 2.0 export
+11:28:38 | INFO: Extracting primitive: 两岸落地台阶
+11:28:38 | INFO: Primitives created: 5
+11:28:38 | INFO: Finished glTF 2.0 export in 0.027060985565185547 s
+
+Info: Saved as "南京眼_网页版.blend"
+MODEL_READY {'id': 'nanjing-eye', 'triangles': 30356, 'glb_bytes': 3096500, 'material_count': 5, 'embedded_images': 2, 'vertex_ao': True, 'sha256': '18b3b1e6a158394188af82a93b642aac0ecb2f56dfd4b0368116d940a2359018', 'blender_dimensions': [56.075, 9.26416, 12.50829], 'scene_scale': 0.3229860731394905, 'scene_offset': [-2.115938899965181, 0.02, -1.0532778825596778], 'scene_rotation_y': -0.7600583401300415, 'source_endpoints': [[121.304078, 604.629209], [136.910675, 619.464255]], 'native_deck_length': 40, 'native_deck_top': 5.133348270666601, 'road_lift': 1.64, 'deck_surface_clearance': 0.018}
+00:26.943  render           | Saved: '/Users/echo/Documents/AIGC/南京城市沙盘/南京眼模型/web/南京眼_实模_侧前方.png'
+00:48.795  render           | Saved: '/Users/echo/Documents/AIGC/南京城市沙盘/南京眼模型/web/南京眼_实模_侧面.png'
+01:09.801  render           | Saved: '/Users/echo/Documents/AIGC/南京城市沙盘/南京眼模型/web/南京眼_实模_桥端.png'
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)
+
+Blender quit

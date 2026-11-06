@@ -1,0 +1,30 @@
+{
+  "preserved": {
+    "sandbox-app/public/models/aoti.glb": true,
+    "sandbox-app/public/models/baoen.glb": true,
+    "sandbox-app/public/models/fuzimiao.glb": true,
+    "sandbox-app/public/models/jiming.glb": true,
+    "sandbox-app/public/models/meiling.glb": true,
+    "sandbox-app/public/models/mingxiaoling.glb": true,
+    "sandbox-app/public/models/museum.glb": true,
+    "sandbox-app/public/models/nanjing-eye.glb": true,
+    "sandbox-app/public/models/presidential.glb": true,
+    "sandbox-app/public/models/yangtze-bridge.glb": true,
+    "sandbox-app/public/models/yuejiang.glb": true,
+    "sandbox-app/public/models/zhonghua.glb": true,
+    "sandbox-app/public/models/zhongshan.glb": true,
+    "sandbox-app/public/models/zifeng.glb": true,
+    "sandbox-app/public/data/buildings.json": true,
+    "sandbox-app/public/data/city-walls.json": true,
+    "sandbox-app/public/data/nanjing.json": true,
+    "sandbox-app/public/data/urban.json": true,
+    "sandbox-app/src/terrain-surface.js": true,
+    "sandbox-app/src/landmark-placement.js": true,
+    "sandbox-app/src/render-style.js": true
+  },
+  "terrain": {
+    "samples": 86391,
+    "maxTerrainDelta": 0
+  },
+  "landmarkManifestUnchanged": true
+}

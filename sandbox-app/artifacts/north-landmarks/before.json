@@ -1,0 +1,53 @@
+[
+  {
+    "id": "jiming",
+    "triangles": 3312,
+    "bytes": 167872,
+    "manifest": {
+      "id": "jiming",
+      "file": "jiming.glb",
+      "blender_dimensions": [
+        9.394,
+        5.044,
+        7.668
+      ],
+      "origin": "ground centre",
+      "front": "glTF +Z",
+      "status": "original simplified landmark model"
+    }
+  },
+  {
+    "id": "zifeng",
+    "triangles": 1732,
+    "bytes": 83288,
+    "manifest": {
+      "id": "zifeng",
+      "file": "zifeng.glb",
+      "blender_dimensions": [
+        7.7,
+        6.0,
+        25.0
+      ],
+      "origin": "ground centre",
+      "front": "glTF +Z",
+      "status": "original simplified landmark model"
+    }
+  },
+  {
+    "id": "yuejiang",
+    "triangles": 1158,
+    "bytes": 57220,
+    "manifest": {
+      "id": "yuejiang",
+      "file": "yuejiang.glb",
+      "blender_dimensions": [
+        9.0,
+        7.0,
+        8.366
+      ],
+      "origin": "ground centre",
+      "front": "glTF +Z",
+      "status": "original simplified landmark model"
+    }
+  }
+]

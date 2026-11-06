@@ -1,0 +1,122 @@
+{
+  "public/models/aoti.glb": {
+    "bytes_before": 3174880,
+    "bytes_after": 3174880,
+    "sha256_unchanged": true
+  },
+  "public/models/baoen.glb": {
+    "bytes_before": 2737828,
+    "bytes_after": 2737828,
+    "sha256_unchanged": true
+  },
+  "public/models/fuzimiao.glb": {
+    "bytes_before": 2710900,
+    "bytes_after": 2710900,
+    "sha256_unchanged": true
+  },
+  "public/models/jiming.glb": {
+    "bytes_before": 3044640,
+    "bytes_after": 3044640,
+    "sha256_unchanged": true
+  },
+  "public/models/manifest.json": {
+    "bytes_before": 15496,
+    "bytes_after": 15496,
+    "sha256_unchanged": true
+  },
+  "public/models/meiling.glb": {
+    "bytes_before": 2603000,
+    "bytes_after": 2603000,
+    "sha256_unchanged": true
+  },
+  "public/models/mingxiaoling.glb": {
+    "bytes_before": 2711656,
+    "bytes_after": 2711656,
+    "sha256_unchanged": true
+  },
+  "public/models/museum.glb": {
+    "bytes_before": 2781628,
+    "bytes_after": 2781628,
+    "sha256_unchanged": true
+  },
+  "public/models/nanjing-eye.glb": {
+    "bytes_before": 3096500,
+    "bytes_after": 3096500,
+    "sha256_unchanged": true
+  },
+  "public/models/presidential.glb": {
+    "bytes_before": 2677408,
+    "bytes_after": 2677408,
+    "sha256_unchanged": true
+  },
+  "public/models/trees.glb": {
+    "bytes_before": 89320,
+    "bytes_after": 89320,
+    "sha256_unchanged": true
+  },
+  "public/models/yangtze-bridge.glb": {
+    "bytes_before": 4398864,
+    "bytes_after": 4398864,
+    "sha256_unchanged": true
+  },
+  "public/models/yuejiang.glb": {
+    "bytes_before": 3372468,
+    "bytes_after": 3372468,
+    "sha256_unchanged": true
+  },
+  "public/models/zhonghua.glb": {
+    "bytes_before": 3469452,
+    "bytes_after": 3469452,
+    "sha256_unchanged": true
+  },
+  "public/models/zhongshan.glb": {
+    "bytes_before": 4261256,
+    "bytes_after": 4261256,
+    "sha256_unchanged": true
+  },
+  "public/models/zifeng.glb": {
+    "bytes_before": 2141376,
+    "bytes_after": 2141376,
+    "sha256_unchanged": true
+  },
+  "public/data/buildings.json": {
+    "bytes_before": 5546154,
+    "bytes_after": 5546154,
+    "sha256_unchanged": true
+  },
+  "public/data/city-walls.json": {
+    "bytes_before": 129045,
+    "bytes_after": 129045,
+    "sha256_unchanged": true
+  },
+  "public/data/nanjing.json": {
+    "bytes_before": 475369,
+    "bytes_after": 475369,
+    "sha256_unchanged": true
+  },
+  "public/data/urban.json": {
+    "bytes_before": 817518,
+    "bytes_after": 817518,
+    "sha256_unchanged": true
+  },
+  "src/render-style.js": {
+    "bytes_before": 1961,
+    "bytes_after": 1961,
+    "sha256_unchanged": true
+  },
+  "src/terrain-surface.js": {
+    "bytes_before": 9062,
+    "bytes_after": 9062,
+    "sha256_unchanged": true
+  },
+  "src/landmark-placement.js": {
+    "bytes_before": 4059,
+    "bytes_after": 4059,
+    "sha256_unchanged": true
+  },
+  "src/tree-asset.js": {
+    "bytes_before": 154,
+    "bytes_after": 154,
+    "sha256_unchanged": true
+  }
+}
